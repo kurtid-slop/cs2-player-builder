@@ -220,6 +220,23 @@
 
   .round b { color: var(--text); }
 
+  .status-right {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+  }
+
+  .sound-btn {
+    border: 1px solid var(--line);
+    background: transparent;
+    border-radius: 999px;
+    padding: 3px 10px;
+    font-size: 0.75rem;
+    color: var(--muted);
+  }
+
+  .sound-btn:hover { color: var(--text); border-color: var(--muted); }
+
   .team-display {
     text-align: center;
     padding: 10px 12px 16px;
@@ -545,7 +562,10 @@
       <section class="panel" id="play" aria-labelledby="round-title">
         <div class="status">
           <div class="round" id="round-title">Round <b id="round">1</b> / 7</div>
-          <div class="round" id="respins-left"></div>
+          <div class="status-right">
+            <div class="round" id="respins-left"></div>
+            <button class="sound-btn" id="sound" aria-pressed="true">Sound on</button>
+          </div>
         </div>
 
         <div class="team-display" aria-live="polite">
@@ -595,9 +615,14 @@
   const ATTRS = DATA.attributes;
   const ROUNDS = ATTRS.length;
   const RESPINS = 1;
-  const SPIN_MS = 2200;    // how long the reel spins
+  const SPIN_MS = 6000;    // how long the reel spins (matches the spin sound)
   const REEL_LENGTH = 30;  // random teams on the reel before the rolled one
   const BEST_KEY = "cs2-player-builder-best";
+  const SOUND_KEY = "cs2-player-builder-sound";
+
+  // Case opening sound, 0:01-0:07 of the original clip
+  const spinSound = new Audio("sounds/spin.m4a");
+  spinSound.preload = "auto";
 
   // Add ?debug to the URL to show data details: the footer,
   // the available attributes line and each team's cluster
@@ -664,6 +689,37 @@
   function readBest() {
     try { return Number(localStorage.getItem(BEST_KEY)) || null; }
     catch (e) { return null; }
+  }
+
+  function readSoundOn() {
+    try { return localStorage.getItem(SOUND_KEY) !== "off"; }
+    catch (e) { return true; }
+  }
+
+  let soundOn = readSoundOn();
+
+  function renderSoundButton() {
+    $("sound").textContent = soundOn ? "Sound on" : "Sound off";
+    $("sound").setAttribute("aria-pressed", String(soundOn));
+  }
+
+  function toggleSound() {
+    soundOn = !soundOn;
+    try { localStorage.setItem(SOUND_KEY, soundOn ? "on" : "off"); }
+    catch (e) { /* storage unavailable */ }
+    if (!soundOn) stopSpinSound();
+    renderSoundButton();
+  }
+
+  function playSpinSound() {
+    if (!soundOn) return;
+    spinSound.currentTime = 0;
+    spinSound.play().catch(() => { /* blocked or unavailable */ });
+  }
+
+  function stopSpinSound() {
+    spinSound.pause();
+    spinSound.currentTime = 0;
   }
 
   function saveBest(value) {
@@ -735,6 +791,8 @@
     };
 
     if (reduceMotion) return land();
+
+    playSpinSound();
 
     // Fill the reel with random teams ending on the rolled one,
     // then scroll it so the rolled team stops on the centre line
@@ -1046,6 +1104,7 @@
     }
 
     resetRestartButton();
+    stopSpinSound();
     newGame();
   }
 
@@ -1085,6 +1144,8 @@
   $("respin").addEventListener("click", () => spin(true));
   $("again").addEventListener("click", newGame);
   $("restart").addEventListener("click", restart);
+  $("sound").addEventListener("click", toggleSound);
+  renderSoundButton();
   $("copy").addEventListener("click", copyResult);
 
   $("footer").hidden = !DEBUG;
