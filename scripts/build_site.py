@@ -1,4 +1,5 @@
 import json
+import numpy as np
 import pandas as pd
 from datetime import date
 
@@ -43,6 +44,12 @@ ATTRIBUTE_CEILING = 100
 # count as AWPers.
 AWPER_THRESHOLD = 40
 
+# How many AWPers get an S (95+) in Sniping. The players
+# listed are always included (a manual choice, not from the
+# data); the rest of the S tier is the top-ranked AWPers.
+SNIPING_S_TIER_SIZE = 5
+SNIPING_S_TIER_INCLUDE = ["s1mple", "device"]
+
 
 # ============================================================
 # LOAD PLAYERS
@@ -73,19 +80,49 @@ players = players[
 # ============================================================
 #
 # Raw Sniping mostly says whether a player is an AWPer, not
-# how good they are. AWPers are rescaled to 0-100 by their
-# rank among the game's AWPers (best = 100, median ~ 50),
-# the same spread as the other attributes. Riflers get 0.
+# how good they are. AWPers are rescaled by their rank among
+# the game's AWPers instead:
+#
+#   S tier    the included players plus the top-ranked AWPers,
+#             spread from 100 down to 95
+#   the rest  spread by rank from just under 95 down to 0
+#
+# Riflers get 0.
 
 players["Sniping adjusted"] = players["Sniping adjusted"].astype(float)
 
 awpers = players["Sniping"] >= AWPER_THRESHOLD
 
-awper_rank = players.loc[awpers, "Sniping adjusted"].rank(method="average")
-
-players.loc[awpers, "Sniping adjusted"] = (
-    100 * (awper_rank - 1) / (awpers.sum() - 1)
+included = players["playername"].str.lower().isin(
+    [name.lower() for name in SNIPING_S_TIER_INCLUDE]
 )
+
+missing = set(n.lower() for n in SNIPING_S_TIER_INCLUDE) - set(
+    players.loc[included & awpers, "playername"].str.lower()
+)
+
+if missing:
+    print(f"WARNING: not AWPers in the game pool: {sorted(missing)}")
+
+# Included players first, then by adjusted Sniping
+order = (
+    players[awpers]
+    .assign(included=included[awpers])
+    .sort_values(["included", "Sniping adjusted"], ascending=False)
+    .index
+)
+
+# Within the S tier, order by the data so the manual picks
+# aren't placed above better AWPers
+s_tier = (
+    players.loc[order[:SNIPING_S_TIER_SIZE], "Sniping adjusted"]
+    .sort_values(ascending=False)
+    .index
+)
+rest = order[SNIPING_S_TIER_SIZE:]
+
+players.loc[s_tier, "Sniping adjusted"] = np.linspace(100, 95, len(s_tier))
+players.loc[rest, "Sniping adjusted"] = np.linspace(94, 0, len(rest))
 
 players.loc[~awpers, "Sniping adjusted"] = 0
 
@@ -140,5 +177,6 @@ SITE_OUTPUT.write_text(
 
 print(f"Teams:   {len(teams)}")
 print(f"AWPers:  {awpers.sum()}")
+print(f"Sniping S tier: {', '.join(players.loc[s_tier, 'playername'])}")
 print(f"Players: {sum(len(t['players']) for t in teams)}")
 print(f"Saved to {SITE_OUTPUT.relative_to(ROOT_DIR)}")

@@ -616,7 +616,8 @@
   const ROUNDS = ATTRS.length;
   const RESPINS = 1;
   const SPIN_MS = 6000;    // how long the reel spins (matches the spin sound)
-  const REEL_LENGTH = 30;  // random teams on the reel before the rolled one
+  const REEL_LENGTH = 30;  // different teams shown on the reel during a spin
+  const REEL_AFTER = 3;    // teams left below the rolled one when it stops
   const BEST_KEY = "cs2-player-builder-best";
   const SOUND_KEY = "cs2-player-builder-sound";
 
@@ -784,6 +785,8 @@
       // Ignore a spin that finishes after the game was restarted
       if (landed || state !== game) return;
       landed = true;
+      // Leave the stopped reel in place, teams above and below
+      $("reel-strip").dataset.landed = team.name;
       state.team = team;
       state.phase = "pick";
       state.justLanded = true;
@@ -794,20 +797,25 @@
 
     playSpinSound();
 
-    // Fill the reel with random teams ending on the rolled one,
-    // then scroll it so the rolled team stops on the centre line
-    const names = [$("reel-strip").textContent || "?"];
-    for (let i = 0; i < REEL_LENGTH; i++) {
-      names.push(DATA.teams[Math.floor(Math.random() * DATA.teams.length)].name);
-    }
-    names.push(team.name);
+    // Fill the reel with different teams in a random order: the
+    // rolled team is the 30th, with a few more after it so the
+    // reel keeps going past the centre line. Then scroll it so
+    // the rolled team stops on the centre line.
+    const others = shuffle(
+      DATA.teams.map(t => t.name).filter(name => name !== team.name)
+    );
+    const before = others.slice(0, REEL_LENGTH - 1);
+    const after = others.slice(REEL_LENGTH - 1, REEL_LENGTH - 1 + REEL_AFTER);
+
+    const names = [$("reel-strip").textContent || "?", ...before, team.name, ...after];
+    const stopAt = before.length + 1;
 
     const strip = $("reel-strip");
     strip.replaceChildren(...names.map(name => h("div", { class: "reel-item" }, name)));
 
     const item = strip.firstChild.offsetHeight;
     const centre = ($("reel").clientHeight - item) / 2;
-    const target = centre - (names.length - 1) * item;
+    const target = centre - stopAt * item;
 
     strip.style.transition = "none";
     strip.style.transform = `translateY(${centre}px)`;
@@ -820,8 +828,18 @@
     setTimeout(land, SPIN_MS + 300); // in case transitionend never fires
   }
 
+  function shuffle(items) {
+    const copy = [...items];
+    for (let i = copy.length - 1; i > 0; i--) {
+      const j = Math.floor(Math.random() * (i + 1));
+      [copy[i], copy[j]] = [copy[j], copy[i]];
+    }
+    return copy;
+  }
+
   function setReel(text) {
     const strip = $("reel-strip");
+    delete strip.dataset.landed;
     strip.style.transition = "none";
     strip.style.transform = "";
     strip.replaceChildren(h("div", { class: "reel-item" }, text));
@@ -927,7 +945,9 @@
     display.classList.remove("landed");
 
     if (state.team) {
-      setReel(state.team.name);
+      // Keep the stopped reel showing; rebuild it only if it
+      // isn't already stopped on this team
+      if ($("reel-strip").dataset.landed !== state.team.name) setReel(state.team.name);
       if (state.justLanded) {
         display.offsetWidth; // restart the animation
         display.classList.add("landed");
@@ -1034,12 +1054,12 @@
     const rounded = Math.round(overall);
 
     // Cutoffs from simulated games where each round takes the
-    // highest value on offer: median 84, top 5% above 91
+    // highest value on offer: median 86, top 5% above 92
     const grade =
-      overall >= 91 ? "S" :
-      overall >= 88 ? "A" :
-      overall >= 84 ? "B" :
-      overall >= 78 ? "C" : "D";
+      overall >= 92 ? "S" :
+      overall >= 89 ? "A" :
+      overall >= 86 ? "B" :
+      overall >= 81 ? "C" : "D";
 
     const beaten = ALL_PLAYERS.filter(p => playerOverall(p) < overall).length;
     const percent = Math.round(100 * beaten / ALL_PLAYERS.length);
