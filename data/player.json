@@ -1,0 +1,5570 @@
+[
+  {
+    "playername": "1eeR",
+    "age": "24 years",
+    "team": "No team",
+    "stats": {
+      "Rating 3.0": "0.92",
+      "Firepower": "22/100",
+      "Entrying": "54/100",
+      "Trading": "26/100",
+      "Opening": "33/100",
+      "Clutching": "36/100",
+      "Sniping": "1/100",
+      "Utility": "83/100"
+    }
+  },
+  {
+    "playername": "7Kick",
+    "age": "21 years",
+    "team": "No team",
+    "stats": {
+      "Rating 3.0": "1.06",
+      "Firepower": "68/100",
+      "Entrying": "30/100",
+      "Trading": "43/100",
+      "Opening": "68/100",
+      "Clutching": "83/100",
+      "Sniping": "93/100",
+      "Utility": "57/100"
+    }
+  },
+  {
+    "playername": "910",
+    "age": "24 years",
+    "team": "The MongolZ",
+    "stats": {
+      "Rating 3.0": "1.17",
+      "Firepower": "88/100",
+      "Entrying": "26/100",
+      "Trading": "23/100",
+      "Opening": "79/100",
+      "Clutching": "44/100",
+      "Sniping": "94/100",
+      "Utility": "64/100"
+    }
+  },
+  {
+    "playername": "acoR",
+    "age": "29 years",
+    "team": "Sashi",
+    "stats": {
+      "Rating 3.0": "1.07",
+      "Firepower": "69/100",
+      "Entrying": "36/100",
+      "Trading": "65/100",
+      "Opening": "76/100",
+      "Clutching": "73/100",
+      "Sniping": "94/100",
+      "Utility": "66/100"
+    }
+  },
+  {
+    "playername": "adamb",
+    "age": "21 years",
+    "team": "OG",
+    "stats": {
+      "Rating 3.0": "1.13",
+      "Firepower": "74/100",
+      "Entrying": "66/100",
+      "Trading": "68/100",
+      "Opening": "50/100",
+      "Clutching": "26/100",
+      "Sniping": "0/100",
+      "Utility": "43/100"
+    }
+  },
+  {
+    "playername": "adamS",
+    "age": "25 years",
+    "team": "Sangal",
+    "stats": {
+      "Rating 3.0": "1.33",
+      "Firepower": "96/100",
+      "Entrying": "72/100",
+      "Trading": "68/100",
+      "Opening": "89/100",
+      "Clutching": "57/100",
+      "Sniping": "1/100",
+      "Utility": "44/100"
+    }
+  },
+  {
+    "playername": "afro",
+    "age": "27 years",
+    "team": "Luminosity",
+    "stats": {
+      "Rating 3.0": "1.00",
+      "Firepower": "45/100",
+      "Entrying": "2/100",
+      "Trading": "43/100",
+      "Opening": "43/100",
+      "Clutching": "64/100",
+      "Sniping": "94/100",
+      "Utility": "70/100"
+    }
+  },
+  {
+    "playername": "Ag1l",
+    "age": "23 years",
+    "team": "100 Thieves (benched)",
+    "stats": {
+      "Rating 3.0": "0.98",
+      "Firepower": "30/100",
+      "Entrying": "42/100",
+      "Trading": "16/100",
+      "Opening": "26/100",
+      "Clutching": "24/100",
+      "Sniping": "0/100",
+      "Utility": "53/100"
+    }
+  },
+  {
+    "playername": "Aleksib",
+    "age": "29 years",
+    "team": "Natus Vincere",
+    "stats": {
+      "Rating 3.0": "0.87",
+      "Firepower": "3/100",
+      "Entrying": "85/100",
+      "Trading": "43/100",
+      "Opening": "6/100",
+      "Clutching": "42/100",
+      "Sniping": "0/100",
+      "Utility": "86/100"
+    }
+  },
+  {
+    "playername": "alex",
+    "age": "30 years",
+    "team": "Iberian Soul",
+    "stats": {
+      "Rating 3.0": "1.00",
+      "Firepower": "46/100",
+      "Entrying": "78/100",
+      "Trading": "59/100",
+      "Opening": "46/100",
+      "Clutching": "39/100",
+      "Sniping": "0/100",
+      "Utility": "77/100"
+    }
+  },
+  {
+    "playername": "alex666",
+    "age": "25 years",
+    "team": "B8",
+    "stats": {
+      "Rating 3.0": "0.97",
+      "Firepower": "25/100",
+      "Entrying": "34/100",
+      "Trading": "26/100",
+      "Opening": "31/100",
+      "Clutching": "71/100",
+      "Sniping": "0/100",
+      "Utility": "71/100"
+    }
+  },
+  {
+    "playername": "aliStair",
+    "age": "28 years",
+    "team": "THUNDER dOWNUNDER",
+    "stats": {
+      "Rating 3.0": "1.00",
+      "Firepower": "27/100",
+      "Entrying": "37/100",
+      "Trading": "10/100",
+      "Opening": "63/100",
+      "Clutching": "63/100",
+      "Sniping": "91/100",
+      "Utility": "76/100"
+    }
+  },
+  {
+    "playername": "Alkaren",
+    "age": "19 years",
+    "team": "CYBERSHOKE (loan)",
+    "stats": {
+      "Rating 3.0": "1.18",
+      "Firepower": "89/100",
+      "Entrying": "18/100",
+      "Trading": "43/100",
+      "Opening": "90/100",
+      "Clutching": "76/100",
+      "Sniping": "92/100",
+      "Utility": "62/100"
+    }
+  },
+  {
+    "playername": "Altekz",
+    "age": "23 years",
+    "team": "No team",
+    "stats": {
+      "Rating 3.0": "1.04",
+      "Firepower": "51/100",
+      "Entrying": "53/100",
+      "Trading": "68/100",
+      "Opening": "24/100",
+      "Clutching": "71/100",
+      "Sniping": "0/100",
+      "Utility": "47/100"
+    }
+  },
+  {
+    "playername": "Anlelele",
+    "age": "25 years",
+    "team": "Sashi",
+    "stats": {
+      "Rating 3.0": "1.08",
+      "Firepower": "45/100",
+      "Entrying": "90/100",
+      "Trading": "91/100",
+      "Opening": "25/100",
+      "Clutching": "64/100",
+      "Sniping": "0/100",
+      "Utility": "42/100"
+    }
+  },
+  {
+    "playername": "apEX",
+    "age": "33 years",
+    "team": "Vitality",
+    "stats": {
+      "Rating 3.0": "0.90",
+      "Firepower": "30/100",
+      "Entrying": "47/100",
+      "Trading": "27/100",
+      "Opening": "82/100",
+      "Clutching": "33/100",
+      "Sniping": "0/100",
+      "Utility": "94/100"
+    }
+  },
+  {
+    "playername": "aragornN",
+    "age": "24 years",
+    "team": "BC.Game (benched)",
+    "stats": {}
+  },
+  {
+    "playername": "arrozdoce",
+    "age": "24 years",
+    "team": "No team",
+    "stats": {}
+  },
+  {
+    "playername": "arT",
+    "age": "30 years",
+    "team": "Legacy",
+    "stats": {
+      "Rating 3.0": "0.88",
+      "Firepower": "12/100",
+      "Entrying": "59/100",
+      "Trading": "17/100",
+      "Opening": "72/100",
+      "Clutching": "18/100",
+      "Sniping": "5/100",
+      "Utility": "74/100"
+    }
+  },
+  {
+    "playername": "ArtFr0st",
+    "age": "24 years",
+    "team": "1win (loan)",
+    "stats": {
+      "Rating 3.0": "1.09",
+      "Firepower": "56/100",
+      "Entrying": "8/100",
+      "Trading": "73/100",
+      "Opening": "42/100",
+      "Clutching": "89/100",
+      "Sniping": "93/100",
+      "Utility": "87/100"
+    }
+  },
+  {
+    "playername": "avid",
+    "age": "24 years",
+    "team": "Alliance",
+    "stats": {
+      "Rating 3.0": "1.13",
+      "Firepower": "70/100",
+      "Entrying": "58/100",
+      "Trading": "73/100",
+      "Opening": "69/100",
+      "Clutching": "38/100",
+      "Sniping": "0/100",
+      "Utility": "52/100"
+    }
+  },
+  {
+    "playername": "AW",
+    "age": "20 years",
+    "team": "magic",
+    "stats": {
+      "Rating 3.0": "1.14",
+      "Firepower": "62/100",
+      "Entrying": "47/100",
+      "Trading": "53/100",
+      "Opening": "43/100",
+      "Clutching": "70/100",
+      "Sniping": "0/100",
+      "Utility": "68/100"
+    }
+  },
+  {
+    "playername": "Ax1Le",
+    "age": "24 years",
+    "team": "1win",
+    "stats": {
+      "Rating 3.0": "1.18",
+      "Firepower": "91/100",
+      "Entrying": "64/100",
+      "Trading": "57/100",
+      "Opening": "64/100",
+      "Clutching": "31/100",
+      "Sniping": "3/100",
+      "Utility": "84/100"
+    }
+  },
+  {
+    "playername": "AZUWU",
+    "age": "22 years",
+    "team": "Luminosity",
+    "stats": {
+      "Rating 3.0": "1.07",
+      "Firepower": "61/100",
+      "Entrying": "79/100",
+      "Trading": "51/100",
+      "Opening": "89/100",
+      "Clutching": "40/100",
+      "Sniping": "0/100",
+      "Utility": "55/100"
+    }
+  },
+  {
+    "playername": "b1st",
+    "age": "18 years",
+    "team": "Virtus.pro",
+    "stats": {
+      "Rating 3.0": "1.20",
+      "Firepower": "82/100",
+      "Entrying": "49/100",
+      "Trading": "44/100",
+      "Opening": "90/100",
+      "Clutching": "69/100",
+      "Sniping": "95/100",
+      "Utility": "62/100"
+    }
+  },
+  {
+    "playername": "b1t",
+    "age": "23 years",
+    "team": "Natus Vincere",
+    "stats": {
+      "Rating 3.0": "1.18",
+      "Firepower": "84/100",
+      "Entrying": "34/100",
+      "Trading": "63/100",
+      "Opening": "50/100",
+      "Clutching": "28/100",
+      "Sniping": "4/100",
+      "Utility": "45/100"
+    }
+  },
+  {
+    "playername": "Banjo",
+    "age": "22 years",
+    "team": "FOKUS",
+    "stats": {
+      "Rating 3.0": "1.06",
+      "Firepower": "48/100",
+      "Entrying": "49/100",
+      "Trading": "63/100",
+      "Opening": "30/100",
+      "Clutching": "75/100",
+      "Sniping": "0/100",
+      "Utility": "49/100"
+    }
+  },
+  {
+    "playername": "beastik",
+    "age": "28 years",
+    "team": "SINNERS",
+    "stats": {
+      "Rating 3.0": "0.92",
+      "Firepower": "22/100",
+      "Entrying": "50/100",
+      "Trading": "6/100",
+      "Opening": "66/100",
+      "Clutching": "26/100",
+      "Sniping": "0/100",
+      "Utility": "78/100"
+    }
+  },
+  {
+    "playername": "BELCHONOKK",
+    "age": "22 years",
+    "team": "1win (loan)",
+    "stats": {
+      "Rating 3.0": "1.02",
+      "Firepower": "37/100",
+      "Entrying": "84/100",
+      "Trading": "64/100",
+      "Opening": "60/100",
+      "Clutching": "51/100",
+      "Sniping": "0/100",
+      "Utility": "40/100"
+    }
+  },
+  {
+    "playername": "biguzera",
+    "age": "29 years",
+    "team": "paiN",
+    "stats": {
+      "Rating 3.0": "1.00",
+      "Firepower": "50/100",
+      "Entrying": "51/100",
+      "Trading": "30/100",
+      "Opening": "54/100",
+      "Clutching": "76/100",
+      "Sniping": "1/100",
+      "Utility": "88/100"
+    }
+  },
+  {
+    "playername": "blameF",
+    "age": "29 years",
+    "team": "BIG",
+    "stats": {
+      "Rating 3.0": "1.16",
+      "Firepower": "87/100",
+      "Entrying": "11/100",
+      "Trading": "83/100",
+      "Opening": "61/100",
+      "Clutching": "70/100",
+      "Sniping": "0/100",
+      "Utility": "65/100"
+    }
+  },
+  {
+    "playername": "bLitz",
+    "age": "25 years",
+    "team": "The MongolZ",
+    "stats": {
+      "Rating 3.0": "1.00",
+      "Firepower": "50/100",
+      "Entrying": "46/100",
+      "Trading": "50/100",
+      "Opening": "56/100",
+      "Clutching": "65/100",
+      "Sniping": "1/100",
+      "Utility": "95/100"
+    }
+  },
+  {
+    "playername": "bobeksde",
+    "age": "22 years",
+    "team": "Alliance",
+    "stats": {
+      "Rating 3.0": "1.11",
+      "Firepower": "87/100",
+      "Entrying": "29/100",
+      "Trading": "31/100",
+      "Opening": "90/100",
+      "Clutching": "28/100",
+      "Sniping": "0/100",
+      "Utility": "64/100"
+    }
+  },
+  {
+    "playername": "bodyy",
+    "age": "29 years",
+    "team": "OG (loan)",
+    "stats": {
+      "Rating 3.0": "1.01",
+      "Firepower": "61/100",
+      "Entrying": "39/100",
+      "Trading": "20/100",
+      "Opening": "75/100",
+      "Clutching": "24/100",
+      "Sniping": "0/100",
+      "Utility": "67/100"
+    }
+  },
+  {
+    "playername": "Boombl4",
+    "age": "27 years",
+    "team": "BetBoom",
+    "stats": {
+      "Rating 3.0": "0.96",
+      "Firepower": "33/100",
+      "Entrying": "75/100",
+      "Trading": "62/100",
+      "Opening": "31/100",
+      "Clutching": "46/100",
+      "Sniping": "0/100",
+      "Utility": "80/100"
+    }
+  },
+  {
+    "playername": "br0",
+    "age": "24 years",
+    "team": "Eternal Fire",
+    "stats": {
+      "Rating 3.0": "0.92",
+      "Firepower": "19/100",
+      "Entrying": "58/100",
+      "Trading": "31/100",
+      "Opening": "30/100",
+      "Clutching": "27/100",
+      "Sniping": "1/100",
+      "Utility": "66/100"
+    }
+  },
+  {
+    "playername": "brnz4n",
+    "age": "22 years",
+    "team": "MIBR",
+    "stats": {
+      "Rating 3.0": "0.91",
+      "Firepower": "13/100",
+      "Entrying": "71/100",
+      "Trading": "56/100",
+      "Opening": "49/100",
+      "Clutching": "33/100",
+      "Sniping": "1/100",
+      "Utility": "31/100"
+    }
+  },
+  {
+    "playername": "broky",
+    "age": "25 years",
+    "team": "FaZe (benched)",
+    "stats": {
+      "Rating 3.0": "0.99",
+      "Firepower": "49/100",
+      "Entrying": "72/100",
+      "Trading": "38/100",
+      "Opening": "46/100",
+      "Clutching": "49/100",
+      "Sniping": "93/100",
+      "Utility": "71/100"
+    }
+  },
+  {
+    "playername": "Brollan",
+    "age": "24 years",
+    "team": "HEROIC",
+    "stats": {
+      "Rating 3.0": "1.03",
+      "Firepower": "40/100",
+      "Entrying": "37/100",
+      "Trading": "23/100",
+      "Opening": "60/100",
+      "Clutching": "47/100",
+      "Sniping": "0/100",
+      "Utility": "52/100"
+    }
+  },
+  {
+    "playername": "buda",
+    "age": "23 years",
+    "team": "BESTIA",
+    "stats": {
+      "Rating 3.0": "1.06",
+      "Firepower": "65/100",
+      "Entrying": "87/100",
+      "Trading": "48/100",
+      "Opening": "73/100",
+      "Clutching": "51/100",
+      "Sniping": "0/100",
+      "Utility": "86/100"
+    }
+  },
+  {
+    "playername": "Burmylov",
+    "age": "19 years",
+    "team": "No team",
+    "stats": {
+      "Rating 3.0": "1.22",
+      "Firepower": "98/100",
+      "Entrying": "29/100",
+      "Trading": "58/100",
+      "Opening": "89/100",
+      "Clutching": "76/100",
+      "Sniping": "94/100",
+      "Utility": "29/100"
+    }
+  },
+  {
+    "playername": "Buzz",
+    "age": "23 years",
+    "team": "No team",
+    "stats": {}
+  },
+  {
+    "playername": "Bymas",
+    "age": "23 years",
+    "team": "Luminosity",
+    "stats": {
+      "Rating 3.0": "0.87",
+      "Firepower": "6/100",
+      "Entrying": "32/100",
+      "Trading": "71/100",
+      "Opening": "16/100",
+      "Clutching": "40/100",
+      "Sniping": "0/100",
+      "Utility": "29/100"
+    }
+  },
+  {
+    "playername": "C4LLM3SU3",
+    "age": "22 years",
+    "team": "Lynn Vision",
+    "stats": {
+      "Rating 3.0": "0.97",
+      "Firepower": "33/100",
+      "Entrying": "37/100",
+      "Trading": "51/100",
+      "Opening": "24/100",
+      "Clutching": "84/100",
+      "Sniping": "1/100",
+      "Utility": "44/100"
+    }
+  },
+  {
+    "playername": "Cabbi",
+    "age": "28 years",
+    "team": "Sashi",
+    "stats": {
+      "Rating 3.0": "1.00",
+      "Firepower": "45/100",
+      "Entrying": "72/100",
+      "Trading": "61/100",
+      "Opening": "79/100",
+      "Clutching": "51/100",
+      "Sniping": "0/100",
+      "Utility": "68/100"
+    }
+  },
+  {
+    "playername": "CacaNito",
+    "age": "25 years",
+    "team": "JiJieHao",
+    "stats": {
+      "Rating 3.0": "1.17",
+      "Firepower": "89/100",
+      "Entrying": "62/100",
+      "Trading": "60/100",
+      "Opening": "85/100",
+      "Clutching": "31/100",
+      "Sniping": "1/100",
+      "Utility": "55/100"
+    }
+  },
+  {
+    "playername": "cadiaN",
+    "age": "31 years",
+    "team": "OG",
+    "stats": {
+      "Rating 3.0": "0.99",
+      "Firepower": "46/100",
+      "Entrying": "19/100",
+      "Trading": "40/100",
+      "Opening": "74/100",
+      "Clutching": "73/100",
+      "Sniping": "92/100",
+      "Utility": "84/100"
+    }
+  },
+  {
+    "playername": "cairne",
+    "age": "23 years",
+    "team": "fnatic",
+    "stats": {
+      "Rating 3.0": "1.17",
+      "Firepower": "70/100",
+      "Entrying": "52/100",
+      "Trading": "37/100",
+      "Opening": "53/100",
+      "Clutching": "32/100",
+      "Sniping": "0/100",
+      "Utility": "40/100"
+    }
+  },
+  {
+    "playername": "Calyx",
+    "age": "28 years",
+    "team": "No team",
+    "stats": {}
+  },
+  {
+    "playername": "cej0t",
+    "age": "19 years",
+    "team": "Phantom",
+    "stats": {
+      "Rating 3.0": "1.02",
+      "Firepower": "44/100",
+      "Entrying": "58/100",
+      "Trading": "32/100",
+      "Opening": "37/100",
+      "Clutching": "76/100",
+      "Sniping": "0/100",
+      "Utility": "61/100"
+    }
+  },
+  {
+    "playername": "CeRq",
+    "age": "26 years",
+    "team": "No team",
+    "stats": {}
+  },
+  {
+    "playername": "chayJESUS",
+    "age": "25 years",
+    "team": "RED Canids (benched)",
+    "stats": {}
+  },
+  {
+    "playername": "ultimate",
+    "age": "22 years",
+    "team": "Betclic",
+    "stats": {
+      "Rating 3.0": "1.03",
+      "Firepower": "46/100",
+      "Entrying": "14/100",
+      "Trading": "32/100",
+      "Opening": "56/100",
+      "Clutching": "77/100",
+      "Sniping": "90/100",
+      "Utility": "51/100"
+    }
+  },
+  {
+    "playername": "urban0",
+    "age": "22 years",
+    "team": "Bounty Hunters",
+    "stats": {}
+  },
+  {
+    "playername": "FL1T",
+    "age": "25 years",
+    "team": "PARIVISION",
+    "stats": {
+      "Rating 3.0": "0.97",
+      "Firepower": "52/100",
+      "Entrying": "49/100",
+      "Trading": "77/100",
+      "Opening": "55/100",
+      "Clutching": "47/100",
+      "Sniping": "0/100",
+      "Utility": "64/100"
+    }
+  },
+  {
+    "playername": "HObbit",
+    "age": "32 years",
+    "team": "No team",
+    "stats": {
+      "Rating 3.0": "0.90",
+      "Firepower": "19/100",
+      "Entrying": "27/100",
+      "Trading": "23/100",
+      "Opening": "42/100",
+      "Clutching": "37/100",
+      "Sniping": "1/100",
+      "Utility": "78/100"
+    }
+  },
+  {
+    "playername": "FL4MUS",
+    "age": "22 years",
+    "team": "GamerLegion",
+    "stats": {
+      "Rating 3.0": "1.12",
+      "Firepower": "82/100",
+      "Entrying": "39/100",
+      "Trading": "39/100",
+      "Opening": "69/100",
+      "Clutching": "35/100",
+      "Sniping": "0/100",
+      "Utility": "37/100"
+    }
+  },
+  {
+    "playername": "chelo",
+    "age": "28 years",
+    "team": "Imperial",
+    "stats": {
+      "Rating 3.0": "1.12",
+      "Firepower": "59/100",
+      "Entrying": "65/100",
+      "Trading": "22/100",
+      "Opening": "72/100",
+      "Clutching": "44/100",
+      "Sniping": "0/100",
+      "Utility": "62/100"
+    }
+  },
+  {
+    "playername": "ChildKing",
+    "age": "26 years",
+    "team": "Rare Atom (benched)",
+    "stats": {}
+  },
+  {
+    "playername": "chopper",
+    "age": "29 years",
+    "team": "Spirit (benched)",
+    "stats": {}
+  },
+  {
+    "playername": "Chr1zN",
+    "age": "19 years",
+    "team": "HEROIC",
+    "stats": {
+      "Rating 3.0": "1.07",
+      "Firepower": "56/100",
+      "Entrying": "81/100",
+      "Trading": "38/100",
+      "Opening": "47/100",
+      "Clutching": "37/100",
+      "Sniping": "1/100",
+      "Utility": "82/100"
+    }
+  },
+  {
+    "playername": "clax",
+    "age": "24 years",
+    "team": "K27",
+    "stats": {
+      "Rating 3.0": "1.06",
+      "Firepower": "52/100",
+      "Entrying": "49/100",
+      "Trading": "42/100",
+      "Opening": "31/100",
+      "Clutching": "46/100",
+      "Sniping": "0/100",
+      "Utility": "61/100"
+    }
+  },
+  {
+    "playername": "cmtry",
+    "age": "18 years",
+    "team": "FUT",
+    "stats": {
+      "Rating 3.0": "0.95",
+      "Firepower": "16/100",
+      "Entrying": "24/100",
+      "Trading": "42/100",
+      "Opening": "27/100",
+      "Clutching": "73/100",
+      "Sniping": "88/100",
+      "Utility": "64/100"
+    }
+  },
+  {
+    "playername": "cobrazera",
+    "age": "21 years",
+    "team": "The MongolZ (benched)",
+    "stats": {
+      "Rating 3.0": "1.06",
+      "Firepower": "58/100",
+      "Entrying": "53/100",
+      "Trading": "55/100",
+      "Opening": "42/100",
+      "Clutching": "61/100",
+      "Sniping": "1/100",
+      "Utility": "30/100"
+    }
+  },
+  {
+    "playername": "coldzera",
+    "age": "31 years",
+    "team": "No team",
+    "stats": {}
+  },
+  {
+    "playername": "controlez",
+    "age": "29 years",
+    "team": "The Huns",
+    "stats": {
+      "Rating 3.0": "0.97",
+      "Firepower": "54/100",
+      "Entrying": "76/100",
+      "Trading": "26/100",
+      "Opening": "78/100",
+      "Clutching": "27/100",
+      "Sniping": "5/100",
+      "Utility": "43/100"
+    }
+  },
+  {
+    "playername": "coolio",
+    "age": "26 years",
+    "team": "FUT (coach)",
+    "stats": {}
+  },
+  {
+    "playername": "cptkurtka023",
+    "age": "27 years",
+    "team": "Inner Circle",
+    "stats": {
+      "Rating 3.0": "1.10",
+      "Firepower": "62/100",
+      "Entrying": "96/100",
+      "Trading": "30/100",
+      "Opening": "83/100",
+      "Clutching": "34/100",
+      "Sniping": "0/100",
+      "Utility": "39/100"
+    }
+  },
+  {
+    "playername": "CRUC1AL",
+    "age": "29 years",
+    "team": "No team",
+    "stats": {
+      "Rating 3.0": "1.13",
+      "Firepower": "69/100",
+      "Entrying": "28/100",
+      "Trading": "69/100",
+      "Opening": "45/100",
+      "Clutching": "71/100",
+      "Sniping": "84/100",
+      "Utility": "45/100"
+    }
+  },
+  {
+    "playername": "Cxzi",
+    "age": "26 years",
+    "team": "Wildcard",
+    "stats": {
+      "Rating 3.0": "1.01",
+      "Firepower": "46/100",
+      "Entrying": "78/100",
+      "Trading": "70/100",
+      "Opening": "79/100",
+      "Clutching": "36/100",
+      "Sniping": "0/100",
+      "Utility": "59/100"
+    }
+  },
+  {
+    "playername": "CYPHER",
+    "age": "23 years",
+    "team": "No team",
+    "stats": {
+      "Rating 3.0": "1.26",
+      "Firepower": "96/100",
+      "Entrying": "89/100",
+      "Trading": "43/100",
+      "Opening": "81/100",
+      "Clutching": "41/100",
+      "Sniping": "0/100",
+      "Utility": "54/100"
+    }
+  },
+  {
+    "playername": "d1Ledez",
+    "age": "23 years",
+    "team": "BetBoom",
+    "stats": {
+      "Rating 3.0": "1.03",
+      "Firepower": "55/100",
+      "Entrying": "67/100",
+      "Trading": "80/100",
+      "Opening": "14/100",
+      "Clutching": "54/100",
+      "Sniping": "0/100",
+      "Utility": "35/100"
+    }
+  },
+  {
+    "playername": "DarkMeister",
+    "age": "18 years",
+    "team": "The MongolZ",
+    "stats": {
+      "Rating 3.0": "1.01",
+      "Firepower": "58/100",
+      "Entrying": "26/100",
+      "Trading": "78/100",
+      "Opening": "57/100",
+      "Clutching": "32/100",
+      "Sniping": "5/100",
+      "Utility": "23/100"
+    }
+  },
+  {
+    "playername": "dav1deuS",
+    "age": "26 years",
+    "team": "Fluxo",
+    "stats": {
+      "Rating 3.0": "1.13",
+      "Firepower": "87/100",
+      "Entrying": "50/100",
+      "Trading": "53/100",
+      "Opening": "63/100",
+      "Clutching": "41/100",
+      "Sniping": "3/100",
+      "Utility": "36/100"
+    }
+  },
+  {
+    "playername": "dav1g",
+    "age": "25 years",
+    "team": "Iberian Soul",
+    "stats": {
+      "Rating 3.0": "0.96",
+      "Firepower": "28/100",
+      "Entrying": "82/100",
+      "Trading": "57/100",
+      "Opening": "58/100",
+      "Clutching": "35/100",
+      "Sniping": "0/100",
+      "Utility": "53/100"
+    }
+  },
+  {
+    "playername": "Dawy",
+    "age": "18 years",
+    "team": "Inner Circle",
+    "stats": {
+      "Rating 3.0": "1.23",
+      "Firepower": "97/100",
+      "Entrying": "79/100",
+      "Trading": "75/100",
+      "Opening": "85/100",
+      "Clutching": "31/100",
+      "Sniping": "0/100",
+      "Utility": "30/100"
+    }
+  },
+  {
+    "playername": "decenty",
+    "age": "22 years",
+    "team": "Imperial",
+    "stats": {
+      "Rating 3.0": "1.10",
+      "Firepower": "80/100",
+      "Entrying": "42/100",
+      "Trading": "59/100",
+      "Opening": "56/100",
+      "Clutching": "32/100",
+      "Sniping": "0/100",
+      "Utility": "34/100"
+    }
+  },
+  {
+    "playername": "deemO",
+    "age": "18 years",
+    "team": "Yawara",
+    "stats": {
+      "Rating 3.0": "1.04",
+      "Firepower": "40/100",
+      "Entrying": "56/100",
+      "Trading": "42/100",
+      "Opening": "37/100",
+      "Clutching": "45/100",
+      "Sniping": "0/100",
+      "Utility": "48/100"
+    }
+  },
+  {
+    "playername": "degster",
+    "age": "25 years",
+    "team": "No team",
+    "stats": {}
+  },
+  {
+    "playername": "deko",
+    "age": "25 years",
+    "team": "WW",
+    "stats": {
+      "Rating 3.0": "1.21",
+      "Firepower": "97/100",
+      "Entrying": "4/100",
+      "Trading": "32/100",
+      "Opening": "82/100",
+      "Clutching": "68/100",
+      "Sniping": "93/100",
+      "Utility": "48/100"
+    }
+  },
+  {
+    "playername": "dem0n",
+    "age": "18 years",
+    "team": "FUT",
+    "stats": {
+      "Rating 3.0": "1.03",
+      "Firepower": "56/100",
+      "Entrying": "67/100",
+      "Trading": "88/100",
+      "Opening": "35/100",
+      "Clutching": "52/100",
+      "Sniping": "0/100",
+      "Utility": "39/100"
+    }
+  },
+  {
+    "playername": "Demho",
+    "age": "25 years",
+    "team": "Betclic",
+    "stats": {
+      "Rating 3.0": "1.08",
+      "Firepower": "42/100",
+      "Entrying": "43/100",
+      "Trading": "15/100",
+      "Opening": "31/100",
+      "Clutching": "60/100",
+      "Sniping": "0/100",
+      "Utility": "54/100"
+    }
+  },
+  {
+    "playername": "DemQQ",
+    "age": "25 years",
+    "team": "No team",
+    "stats": {
+      "Rating 3.0": "1.02",
+      "Firepower": "27/100",
+      "Entrying": "77/100",
+      "Trading": "19/100",
+      "Opening": "25/100",
+      "Clutching": "46/100",
+      "Sniping": "0/100",
+      "Utility": "42/100"
+    }
+  },
+  {
+    "playername": "device",
+    "age": "30 years",
+    "team": "100 Thieves",
+    "stats": {
+      "Rating 3.0": "1.17",
+      "Firepower": "88/100",
+      "Entrying": "7/100",
+      "Trading": "27/100",
+      "Opening": "79/100",
+      "Clutching": "71/100",
+      "Sniping": "92/100",
+      "Utility": "87/100"
+    }
+  },
+  {
+    "playername": "dex",
+    "age": "25 years",
+    "team": "EYEBALLERS",
+    "stats": {
+      "Rating 3.0": "0.97",
+      "Firepower": "51/100",
+      "Entrying": "51/100",
+      "Trading": "33/100",
+      "Opening": "57/100",
+      "Clutching": "50/100",
+      "Sniping": "0/100",
+      "Utility": "65/100"
+    }
+  },
+  {
+    "playername": "dexter",
+    "age": "32 years",
+    "team": "THUNDER dOWNUNDER",
+    "stats": {
+      "Rating 3.0": "0.93",
+      "Firepower": "46/100",
+      "Entrying": "45/100",
+      "Trading": "56/100",
+      "Opening": "67/100",
+      "Clutching": "41/100",
+      "Sniping": "2/100",
+      "Utility": "77/100"
+    }
+  },
+  {
+    "playername": "dgt",
+    "age": "25 years",
+    "team": "9z (loan)",
+    "stats": {
+      "Rating 3.0": "1.06",
+      "Firepower": "66/100",
+      "Entrying": "41/100",
+      "Trading": "56/100",
+      "Opening": "74/100",
+      "Clutching": "57/100",
+      "Sniping": "0/100",
+      "Utility": "45/100"
+    }
+  },
+  {
+    "playername": "Djoko",
+    "age": "29 years",
+    "team": "GenOne",
+    "stats": {
+      "Rating 3.0": "1.04",
+      "Firepower": "60/100",
+      "Entrying": "66/100",
+      "Trading": "68/100",
+      "Opening": "59/100",
+      "Clutching": "45/100",
+      "Sniping": "0/100",
+      "Utility": "69/100"
+    }
+  },
+  {
+    "playername": "doc",
+    "age": "23 years",
+    "team": "DENDELE",
+    "stats": {
+      "Rating 3.0": "1.14",
+      "Firepower": "82/100",
+      "Entrying": "84/100",
+      "Trading": "57/100",
+      "Opening": "86/100",
+      "Clutching": "48/100",
+      "Sniping": "0/100",
+      "Utility": "65/100"
+    }
+  },
+  {
+    "playername": "donk",
+    "age": "19 years",
+    "team": "Spirit",
+    "stats": {
+      "Rating 3.0": "1.41",
+      "Firepower": "100/100",
+      "Entrying": "66/100",
+      "Trading": "75/100",
+      "Opening": "96/100",
+      "Clutching": "66/100",
+      "Sniping": "0/100",
+      "Utility": "27/100"
+    }
+  },
+  {
+    "playername": "drop",
+    "age": "22 years",
+    "team": "No team",
+    "stats": {}
+  },
+  {
+    "playername": "dukefissura",
+    "age": "30 years",
+    "team": "Game Point (loan)",
+    "stats": {
+      "Rating 3.0": "0.95",
+      "Firepower": "75/100",
+      "Entrying": "1/100",
+      "Trading": "0/100",
+      "Opening": "55/100",
+      "Clutching": "23/100",
+      "Sniping": "0/100",
+      "Utility": "22/100"
+    }
+  },
+  {
+    "playername": "dumau",
+    "age": "22 years",
+    "team": "Legacy",
+    "stats": {
+      "Rating 3.0": "1.12",
+      "Firepower": "83/100",
+      "Entrying": "54/100",
+      "Trading": "36/100",
+      "Opening": "85/100",
+      "Clutching": "27/100",
+      "Sniping": "0/100",
+      "Utility": "77/100"
+    }
+  },
+  {
+    "playername": "dwushka",
+    "age": "21 years",
+    "team": "HOTU (loan)",
+    "stats": {
+      "Rating 3.0": "1.09",
+      "Firepower": "64/100",
+      "Entrying": "37/100",
+      "Trading": "36/100",
+      "Opening": "48/100",
+      "Clutching": "74/100",
+      "Sniping": "0/100",
+      "Utility": "32/100"
+    }
+  },
+  {
+    "playername": "dycha",
+    "age": "29 years",
+    "team": "No team",
+    "stats": {}
+  },
+  {
+    "playername": "dziugss",
+    "age": "17 years",
+    "team": "FUT",
+    "stats": {
+      "Rating 3.0": "1.14",
+      "Firepower": "75/100",
+      "Entrying": "78/100",
+      "Trading": "69/100",
+      "Opening": "40/100",
+      "Clutching": "51/100",
+      "Sniping": "0/100",
+      "Utility": "42/100"
+    }
+  },
+  {
+    "playername": "electroNic",
+    "age": "27 years",
+    "team": "BC.Game",
+    "stats": {
+      "Rating 3.0": "0.99",
+      "Firepower": "34/100",
+      "Entrying": "87/100",
+      "Trading": "42/100",
+      "Opening": "30/100",
+      "Clutching": "36/100",
+      "Sniping": "1/100",
+      "Utility": "57/100"
+    }
+  },
+  {
+    "playername": "EliGE",
+    "age": "29 years",
+    "team": "Liquid",
+    "stats": {
+      "Rating 3.0": "1.17",
+      "Firepower": "88/100",
+      "Entrying": "85/100",
+      "Trading": "78/100",
+      "Opening": "83/100",
+      "Clutching": "54/100",
+      "Sniping": "0/100",
+      "Utility": "39/100"
+    }
+  },
+  {
+    "playername": "EmiliaQAQ",
+    "age": "21 years",
+    "team": "Lynn Vision",
+    "stats": {
+      "Rating 3.0": "0.93",
+      "Firepower": "24/100",
+      "Entrying": "44/100",
+      "Trading": "40/100",
+      "Opening": "39/100",
+      "Clutching": "49/100",
+      "Sniping": "0/100",
+      "Utility": "49/100"
+    }
+  },
+  {
+    "playername": "eraa",
+    "age": "25 years",
+    "team": "Alliance",
+    "stats": {
+      "Rating 3.0": "1.17",
+      "Firepower": "89/100",
+      "Entrying": "20/100",
+      "Trading": "44/100",
+      "Opening": "70/100",
+      "Clutching": "78/100",
+      "Sniping": "93/100",
+      "Utility": "67/100"
+    }
+  },
+  {
+    "playername": "esenthial",
+    "age": "20 years",
+    "team": "B8",
+    "stats": {
+      "Rating 3.0": "0.96",
+      "Firepower": "24/100",
+      "Entrying": "52/100",
+      "Trading": "57/100",
+      "Opening": "26/100",
+      "Clutching": "53/100",
+      "Sniping": "0/100",
+      "Utility": "32/100"
+    }
+  },
+  {
+    "playername": "ewjerkz",
+    "age": "25 years",
+    "team": "SAW",
+    "stats": {
+      "Rating 3.0": "0.98",
+      "Firepower": "30/100",
+      "Entrying": "85/100",
+      "Trading": "53/100",
+      "Opening": "57/100",
+      "Clutching": "18/100",
+      "Sniping": "0/100",
+      "Utility": "61/100"
+    }
+  },
+  {
+    "playername": "Ex3rcice",
+    "age": "26 years",
+    "team": "3DMAX (benched)",
+    "stats": {
+      "Rating 3.0": "0.92",
+      "Firepower": "22/100",
+      "Entrying": "85/100",
+      "Trading": "88/100",
+      "Opening": "23/100",
+      "Clutching": "82/100",
+      "Sniping": "0/100",
+      "Utility": "47/100"
+    }
+  },
+  {
+    "playername": "exit",
+    "age": "29 years",
+    "team": "Fluxo",
+    "stats": {
+      "Rating 3.0": "1.13",
+      "Firepower": "63/100",
+      "Entrying": "36/100",
+      "Trading": "61/100",
+      "Opening": "35/100",
+      "Clutching": "76/100",
+      "Sniping": "0/100",
+      "Utility": "91/100"
+    }
+  },
+  {
+    "playername": "F1KU",
+    "age": "23 years",
+    "team": "Metizport",
+    "stats": {
+      "Rating 3.0": "1.10",
+      "Firepower": "55/100",
+      "Entrying": "45/100",
+      "Trading": "55/100",
+      "Opening": "30/100",
+      "Clutching": "43/100",
+      "Sniping": "0/100",
+      "Utility": "50/100"
+    }
+  },
+  {
+    "playername": "FalleN",
+    "age": "35 years",
+    "team": "FURIA",
+    "stats": {
+      "Rating 3.0": "0.89",
+      "Firepower": "12/100",
+      "Entrying": "42/100",
+      "Trading": "8/100",
+      "Opening": "24/100",
+      "Clutching": "22/100",
+      "Sniping": "8/100",
+      "Utility": "74/100"
+    }
+  },
+  {
+    "playername": "fame",
+    "age": "23 years",
+    "team": "1win",
+    "stats": {
+      "Rating 3.0": "1.11",
+      "Firepower": "55/100",
+      "Entrying": "78/100",
+      "Trading": "57/100",
+      "Opening": "39/100",
+      "Clutching": "66/100",
+      "Sniping": "0/100",
+      "Utility": "56/100"
+    }
+  },
+  {
+    "playername": "FaNg",
+    "age": "24 years",
+    "team": "No team",
+    "stats": {}
+  },
+  {
+    "playername": "faveN",
+    "age": "26 years",
+    "team": "BIG",
+    "stats": {
+      "Rating 3.0": "0.99",
+      "Firepower": "25/100",
+      "Entrying": "76/100",
+      "Trading": "71/100",
+      "Opening": "39/100",
+      "Clutching": "69/100",
+      "Sniping": "1/100",
+      "Utility": "30/100"
+    }
+  },
+  {
+    "playername": "fEAR",
+    "age": "25 years",
+    "team": "fnatic",
+    "stats": {
+      "Rating 3.0": "0.98",
+      "Firepower": "36/100",
+      "Entrying": "61/100",
+      "Trading": "9/100",
+      "Opening": "49/100",
+      "Clutching": "55/100",
+      "Sniping": "0/100",
+      "Utility": "83/100"
+    }
+  },
+  {
+    "playername": "felps",
+    "age": "29 years",
+    "team": "No team",
+    "stats": {}
+  },
+  {
+    "playername": "flameZ",
+    "age": "23 years",
+    "team": "Vitality",
+    "stats": {
+      "Rating 3.0": "1.14",
+      "Firepower": "78/100",
+      "Entrying": "87/100",
+      "Trading": "17/100",
+      "Opening": "93/100",
+      "Clutching": "10/100",
+      "Sniping": "0/100",
+      "Utility": "66/100"
+    }
+  },
+  {
+    "playername": "flashie",
+    "age": "30 years",
+    "team": "Liquid (coach)",
+    "stats": {
+      "Rating 3.0": "0.71",
+      "Firepower": "10/100",
+      "Entrying": "8/100",
+      "Trading": "27/100",
+      "Opening": "69/100",
+      "Clutching": "21/100",
+      "Sniping": "0/100",
+      "Utility": "52/100"
+    }
+  },
+  {
+    "playername": "Flierax",
+    "age": "20 years",
+    "team": "Inner Circle (benched)",
+    "stats": {
+      "Rating 3.0": "1.33",
+      "Firepower": "96/100",
+      "Entrying": "6/100",
+      "Trading": "15/100",
+      "Opening": "93/100",
+      "Clutching": "68/100",
+      "Sniping": "95/100",
+      "Utility": "41/100"
+    }
+  },
+  {
+    "playername": "floppy",
+    "age": "26 years",
+    "team": "No team",
+    "stats": {}
+  },
+  {
+    "playername": "fr3nd",
+    "age": "24 years",
+    "team": "No team",
+    "stats": {
+      "Rating 3.0": "1.06",
+      "Firepower": "52/100",
+      "Entrying": "15/100",
+      "Trading": "34/100",
+      "Opening": "57/100",
+      "Clutching": "81/100",
+      "Sniping": "93/100",
+      "Utility": "50/100"
+    }
+  },
+  {
+    "playername": "frontales",
+    "age": "24 years",
+    "team": "HOTU",
+    "stats": {
+      "Rating 3.0": "1.12",
+      "Firepower": "58/100",
+      "Entrying": "16/100",
+      "Trading": "35/100",
+      "Opening": "67/100",
+      "Clutching": "73/100",
+      "Sniping": "95/100",
+      "Utility": "64/100"
+    }
+  },
+  {
+    "playername": "frozen",
+    "age": "24 years",
+    "team": "FaZe",
+    "stats": {
+      "Rating 3.0": "1.18",
+      "Firepower": "77/100",
+      "Entrying": "44/100",
+      "Trading": "60/100",
+      "Opening": "50/100",
+      "Clutching": "41/100",
+      "Sniping": "1/100",
+      "Utility": "39/100"
+    }
+  },
+  {
+    "playername": "gafolo",
+    "age": "24 years",
+    "team": "DENDELE",
+    "stats": {
+      "Rating 3.0": "0.93",
+      "Firepower": "12/100",
+      "Entrying": "93/100",
+      "Trading": "70/100",
+      "Opening": "23/100",
+      "Clutching": "41/100",
+      "Sniping": "0/100",
+      "Utility": "77/100"
+    }
+  },
+  {
+    "playername": "Gizmy",
+    "age": "22 years",
+    "team": "100 Thieves",
+    "stats": {
+      "Rating 3.0": "1.03",
+      "Firepower": "47/100",
+      "Entrying": "66/100",
+      "Trading": "24/100",
+      "Opening": "64/100",
+      "Clutching": "68/100",
+      "Sniping": "2/100",
+      "Utility": "93/100"
+    }
+  },
+  {
+    "playername": "Goofy",
+    "age": "25 years",
+    "team": "No team",
+    "stats": {
+      "Rating 3.0": "0.95",
+      "Firepower": "33/100",
+      "Entrying": "42/100",
+      "Trading": "61/100",
+      "Opening": "39/100",
+      "Clutching": "24/100",
+      "Sniping": "4/100",
+      "Utility": "64/100"
+    }
+  },
+  {
+    "playername": "gr1ks",
+    "age": "20 years",
+    "team": "BIG",
+    "stats": {
+      "Rating 3.0": "1.10",
+      "Firepower": "76/100",
+      "Entrying": "25/100",
+      "Trading": "52/100",
+      "Opening": "71/100",
+      "Clutching": "66/100",
+      "Sniping": "95/100",
+      "Utility": "64/100"
+    }
+  },
+  {
+    "playername": "Graviti",
+    "age": "22 years",
+    "team": "3DMAX",
+    "stats": {
+      "Rating 3.0": "0.92",
+      "Firepower": "24/100",
+      "Entrying": "77/100",
+      "Trading": "60/100",
+      "Opening": "62/100",
+      "Clutching": "38/100",
+      "Sniping": "0/100",
+      "Utility": "59/100"
+    }
+  },
+  {
+    "playername": "Grim",
+    "age": "25 years",
+    "team": "NRG",
+    "stats": {
+      "Rating 3.0": "1.16",
+      "Firepower": "81/100",
+      "Entrying": "72/100",
+      "Trading": "61/100",
+      "Opening": "55/100",
+      "Clutching": "45/100",
+      "Sniping": "0/100",
+      "Utility": "40/100"
+    }
+  },
+  {
+    "playername": "gtw",
+    "age": "15 years",
+    "team": "RED Canids Academy",
+    "stats": {}
+  },
+  {
+    "playername": "hades",
+    "age": "26 years",
+    "team": "No team",
+    "stats": {
+      "Rating 3.0": "1.03",
+      "Firepower": "54/100",
+      "Entrying": "8/100",
+      "Trading": "29/100",
+      "Opening": "52/100",
+      "Clutching": "62/100",
+      "Sniping": "92/100",
+      "Utility": "64/100"
+    }
+  },
+  {
+    "playername": "hAdji",
+    "age": "30 years",
+    "team": "No team",
+    "stats": {
+      "Rating 3.0": "1.03",
+      "Firepower": "55/100",
+      "Entrying": "67/100",
+      "Trading": "30/100",
+      "Opening": "26/100",
+      "Clutching": "43/100",
+      "Sniping": "0/100",
+      "Utility": "40/100"
+    }
+  },
+  {
+    "playername": "hallzerk",
+    "age": "26 years",
+    "team": "NRG",
+    "stats": {
+      "Rating 3.0": "1.16",
+      "Firepower": "79/100",
+      "Entrying": "70/100",
+      "Trading": "81/100",
+      "Opening": "61/100",
+      "Clutching": "87/100",
+      "Sniping": "87/100",
+      "Utility": "79/100"
+    }
+  },
+  {
+    "playername": "headtr1ck",
+    "age": "22 years",
+    "team": "Inner Circle",
+    "stats": {
+      "Rating 3.0": "1.15",
+      "Firepower": "74/100",
+      "Entrying": "23/100",
+      "Trading": "83/100",
+      "Opening": "36/100",
+      "Clutching": "93/100",
+      "Sniping": "82/100",
+      "Utility": "67/100"
+    }
+  },
+  {
+    "playername": "HeavyGod",
+    "age": "24 years",
+    "team": "G2",
+    "stats": {
+      "Rating 3.0": "1.17",
+      "Firepower": "70/100",
+      "Entrying": "56/100",
+      "Trading": "28/100",
+      "Opening": "37/100",
+      "Clutching": "49/100",
+      "Sniping": "3/100",
+      "Utility": "55/100"
+    }
+  },
+  {
+    "playername": "HEN1",
+    "age": "31 years",
+    "team": "Gaimin Gladiators (benched)",
+    "stats": {
+      "Rating 3.0": "0.86",
+      "Firepower": "20/100",
+      "Entrying": "23/100",
+      "Trading": "42/100",
+      "Opening": "51/100",
+      "Clutching": "94/100",
+      "Sniping": "84/100",
+      "Utility": "65/100"
+    }
+  },
+  {
+    "playername": "HexT",
+    "age": "24 years",
+    "team": "Wildcard",
+    "stats": {
+      "Rating 3.0": "1.03",
+      "Firepower": "36/100",
+      "Entrying": "32/100",
+      "Trading": "37/100",
+      "Opening": "25/100",
+      "Clutching": "73/100",
+      "Sniping": "0/100",
+      "Utility": "42/100"
+    }
+  },
+  {
+    "playername": "hfah",
+    "age": "20 years",
+    "team": "BRUTE",
+    "stats": {
+      "Rating 3.0": "0.97",
+      "Firepower": "31/100",
+      "Entrying": "59/100",
+      "Trading": "51/100",
+      "Opening": "32/100",
+      "Clutching": "33/100",
+      "Sniping": "0/100",
+      "Utility": "23/100"
+    }
+  },
+  {
+    "playername": "HooXi",
+    "age": "31 years",
+    "team": "Astralis",
+    "stats": {
+      "Rating 3.0": "0.88",
+      "Firepower": "6/100",
+      "Entrying": "84/100",
+      "Trading": "19/100",
+      "Opening": "27/100",
+      "Clutching": "25/100",
+      "Sniping": "3/100",
+      "Utility": "78/100"
+    }
+  },
+  {
+    "playername": "HUASOPEEK",
+    "age": "23 years",
+    "team": "9z",
+    "stats": {
+      "Rating 3.0": "1.10",
+      "Firepower": "64/100",
+      "Entrying": "90/100",
+      "Trading": "60/100",
+      "Opening": "40/100",
+      "Clutching": "34/100",
+      "Sniping": "0/100",
+      "Utility": "54/100"
+    }
+  },
+  {
+    "playername": "huNter-",
+    "age": "30 years",
+    "team": "G2",
+    "stats": {
+      "Rating 3.0": "1.05",
+      "Firepower": "65/100",
+      "Entrying": "75/100",
+      "Trading": "88/100",
+      "Opening": "25/100",
+      "Clutching": "38/100",
+      "Sniping": "0/100",
+      "Utility": "89/100"
+    }
+  },
+  {
+    "playername": "hyped",
+    "age": "25 years",
+    "team": "No team",
+    "stats": {}
+  },
+  {
+    "playername": "hypex",
+    "age": "22 years",
+    "team": "GamerLegion",
+    "stats": {
+      "Rating 3.0": "0.98",
+      "Firepower": "29/100",
+      "Entrying": "63/100",
+      "Trading": "66/100",
+      "Opening": "36/100",
+      "Clutching": "60/100",
+      "Sniping": "79/100",
+      "Utility": "55/100"
+    }
+  },
+  {
+    "playername": "IceBerg",
+    "age": "25 years",
+    "team": "Echo",
+    "stats": {
+      "Rating 3.0": "0.83",
+      "Firepower": "12/100",
+      "Entrying": "84/100",
+      "Trading": "11/100",
+      "Opening": "55/100",
+      "Clutching": "36/100",
+      "Sniping": "0/100",
+      "Utility": "58/100"
+    }
+  },
+  {
+    "playername": "ICY",
+    "age": "21 years",
+    "team": "Endless Journey (loan)",
+    "stats": {
+      "Rating 3.0": "1.38",
+      "Firepower": "91/100",
+      "Entrying": "26/100",
+      "Trading": "56/100",
+      "Opening": "51/100",
+      "Clutching": "51/100",
+      "Sniping": "91/100",
+      "Utility": "38/100"
+    }
+  },
+  {
+    "playername": "iM",
+    "age": "27 years",
+    "team": "Natus Vincere",
+    "stats": {
+      "Rating 3.0": "1.06",
+      "Firepower": "74/100",
+      "Entrying": "42/100",
+      "Trading": "69/100",
+      "Opening": "56/100",
+      "Clutching": "59/100",
+      "Sniping": "0/100",
+      "Utility": "51/100"
+    }
+  },
+  {
+    "playername": "INS",
+    "age": "27 years",
+    "team": "FlyQuest",
+    "stats": {
+      "Rating 3.0": "1.05",
+      "Firepower": "61/100",
+      "Entrying": "58/100",
+      "Trading": "51/100",
+      "Opening": "27/100",
+      "Clutching": "30/100",
+      "Sniping": "0/100",
+      "Utility": "94/100"
+    }
+  },
+  {
+    "playername": "insani",
+    "age": "22 years",
+    "team": "MIBR",
+    "stats": {
+      "Rating 3.0": "1.24",
+      "Firepower": "97/100",
+      "Entrying": "84/100",
+      "Trading": "55/100",
+      "Opening": "91/100",
+      "Clutching": "41/100",
+      "Sniping": "0/100",
+      "Utility": "71/100"
+    }
+  },
+  {
+    "playername": "interz",
+    "age": "26 years",
+    "team": "No team",
+    "stats": {}
+  },
+  {
+    "playername": "isak",
+    "age": "24 years",
+    "team": "No team",
+    "stats": {
+      "Rating 3.0": "1.15",
+      "Firepower": "72/100",
+      "Entrying": "14/100",
+      "Trading": "48/100",
+      "Opening": "60/100",
+      "Clutching": "59/100",
+      "Sniping": "5/100",
+      "Utility": "25/100"
+    }
+  },
+  {
+    "playername": "jabbi",
+    "age": "23 years",
+    "team": "Astralis",
+    "stats": {
+      "Rating 3.0": "1.06",
+      "Firepower": "71/100",
+      "Entrying": "40/100",
+      "Trading": "32/100",
+      "Opening": "44/100",
+      "Clutching": "68/100",
+      "Sniping": "1/100",
+      "Utility": "42/100"
+    }
+  },
+  {
+    "playername": "jackasmo",
+    "age": "19 years",
+    "team": "fnatic",
+    "stats": {
+      "Rating 3.0": "1.19",
+      "Firepower": "90/100",
+      "Entrying": "39/100",
+      "Trading": "54/100",
+      "Opening": "46/100",
+      "Clutching": "30/100",
+      "Sniping": "0/100",
+      "Utility": "74/100"
+    }
+  },
+  {
+    "playername": "JACKZ",
+    "age": "34 years",
+    "team": "No team",
+    "stats": {
+      "Rating 3.0": "1.23",
+      "Firepower": "94/100",
+      "Entrying": "15/100",
+      "Trading": "50/100",
+      "Opening": "44/100",
+      "Clutching": "62/100",
+      "Sniping": "2/100",
+      "Utility": "36/100"
+    }
+  },
+  {
+    "playername": "jambo",
+    "age": "21 years",
+    "team": "fnatic",
+    "stats": {
+      "Rating 3.0": "1.19",
+      "Firepower": "84/100",
+      "Entrying": "23/100",
+      "Trading": "24/100",
+      "Opening": "91/100",
+      "Clutching": "68/100",
+      "Sniping": "93/100",
+      "Utility": "58/100"
+    }
+  },
+  {
+    "playername": "Jame",
+    "age": "27 years",
+    "team": "PARIVISION",
+    "stats": {
+      "Rating 3.0": "1.05",
+      "Firepower": "49/100",
+      "Entrying": "5/100",
+      "Trading": "19/100",
+      "Opening": "74/100",
+      "Clutching": "79/100",
+      "Sniping": "95/100",
+      "Utility": "67/100"
+    }
+  },
+  {
+    "playername": "JamYoung",
+    "age": "25 years",
+    "team": "TYLOO",
+    "stats": {
+      "Rating 3.0": "1.14",
+      "Firepower": "71/100",
+      "Entrying": "70/100",
+      "Trading": "43/100",
+      "Opening": "86/100",
+      "Clutching": "50/100",
+      "Sniping": "0/100",
+      "Utility": "56/100"
+    }
+  },
+  {
+    "playername": "JBa",
+    "age": "22 years",
+    "team": "M80",
+    "stats": {
+      "Rating 3.0": "1.06",
+      "Firepower": "49/100",
+      "Entrying": "39/100",
+      "Trading": "55/100",
+      "Opening": "28/100",
+      "Clutching": "82/100",
+      "Sniping": "0/100",
+      "Utility": "33/100"
+    }
+  },
+  {
+    "playername": "JBOEN",
+    "age": "21 years",
+    "team": "FaZe (loan)",
+    "stats": {
+      "Rating 3.0": "1.17",
+      "Firepower": "82/100",
+      "Entrying": "5/100",
+      "Trading": "26/100",
+      "Opening": "78/100",
+      "Clutching": "77/100",
+      "Sniping": "94/100",
+      "Utility": "61/100"
+    }
+  },
+  {
+    "playername": "jcobbb",
+    "age": "22 years",
+    "team": "FaZe",
+    "stats": {
+      "Rating 3.0": "1.12",
+      "Firepower": "64/100",
+      "Entrying": "76/100",
+      "Trading": "47/100",
+      "Opening": "87/100",
+      "Clutching": "49/100",
+      "Sniping": "0/100",
+      "Utility": "33/100"
+    }
+  },
+  {
+    "playername": "JDC",
+    "age": "26 years",
+    "team": "BIG",
+    "stats": {
+      "Rating 3.0": "1.08",
+      "Firepower": "68/100",
+      "Entrying": "77/100",
+      "Trading": "27/100",
+      "Opening": "76/100",
+      "Clutching": "27/100",
+      "Sniping": "0/100",
+      "Utility": "54/100"
+    }
+  },
+  {
+    "playername": "Jee",
+    "age": "21 years",
+    "team": "TYLOO",
+    "stats": {
+      "Rating 3.0": "1.06",
+      "Firepower": "52/100",
+      "Entrying": "33/100",
+      "Trading": "66/100",
+      "Opening": "25/100",
+      "Clutching": "79/100",
+      "Sniping": "91/100",
+      "Utility": "64/100"
+    }
+  },
+  {
+    "playername": "Jeorge",
+    "age": "23 years",
+    "team": "NRG",
+    "stats": {
+      "Rating 3.0": "1.13",
+      "Firepower": "64/100",
+      "Entrying": "69/100",
+      "Trading": "85/100",
+      "Opening": "49/100",
+      "Clutching": "67/100",
+      "Sniping": "1/100",
+      "Utility": "61/100"
+    }
+  },
+  {
+    "playername": "Jimpphat",
+    "age": "19 years",
+    "team": "Aurora",
+    "stats": {
+      "Rating 3.0": "1.22",
+      "Firepower": "92/100",
+      "Entrying": "23/100",
+      "Trading": "77/100",
+      "Opening": "47/100",
+      "Clutching": "42/100",
+      "Sniping": "1/100",
+      "Utility": "24/100"
+    }
+  },
+  {
+    "playername": "jkaem",
+    "age": "32 years",
+    "team": "BC.Game (benched)",
+    "stats": {}
+  },
+  {
+    "playername": "jks",
+    "age": "30 years",
+    "team": "FlyQuest",
+    "stats": {
+      "Rating 3.0": "1.23",
+      "Firepower": "94/100",
+      "Entrying": "38/100",
+      "Trading": "50/100",
+      "Opening": "69/100",
+      "Clutching": "81/100",
+      "Sniping": "1/100",
+      "Utility": "75/100"
+    }
+  },
+  {
+    "playername": "jL",
+    "age": "26 years",
+    "team": "No team",
+    "stats": {
+      "Rating 3.0": "1.05",
+      "Firepower": "57/100",
+      "Entrying": "24/100",
+      "Trading": "72/100",
+      "Opening": "27/100",
+      "Clutching": "51/100",
+      "Sniping": "9/100",
+      "Utility": "56/100"
+    }
+  },
+  {
+    "playername": "jocab",
+    "age": "21 years",
+    "team": "FOKUS",
+    "stats": {
+      "Rating 3.0": "1.13",
+      "Firepower": "77/100",
+      "Entrying": "37/100",
+      "Trading": "74/100",
+      "Opening": "59/100",
+      "Clutching": "73/100",
+      "Sniping": "0/100",
+      "Utility": "30/100"
+    }
+  },
+  {
+    "playername": "Jorko",
+    "age": "17 years",
+    "team": "Liquid",
+    "stats": {
+      "Rating 3.0": "1.09",
+      "Firepower": "70/100",
+      "Entrying": "16/100",
+      "Trading": "56/100",
+      "Opening": "69/100",
+      "Clutching": "83/100",
+      "Sniping": "92/100",
+      "Utility": "58/100"
+    }
+  },
+  {
+    "playername": "jottAAA",
+    "age": "24 years",
+    "team": "Eternal Fire (loan)",
+    "stats": {
+      "Rating 3.0": "1.21",
+      "Firepower": "96/100",
+      "Entrying": "12/100",
+      "Trading": "60/100",
+      "Opening": "71/100",
+      "Clutching": "30/100",
+      "Sniping": "0/100",
+      "Utility": "42/100"
+    }
+  },
+  {
+    "playername": "JT",
+    "age": "27 years",
+    "team": "Liquid",
+    "stats": {
+      "Rating 3.0": "1.00",
+      "Firepower": "34/100",
+      "Entrying": "58/100",
+      "Trading": "39/100",
+      "Opening": "64/100",
+      "Clutching": "41/100",
+      "Sniping": "0/100",
+      "Utility": "62/100"
+    }
+  },
+  {
+    "playername": "junior",
+    "age": "25 years",
+    "team": "Voca",
+    "stats": {
+      "Rating 3.0": "1.08",
+      "Firepower": "68/100",
+      "Entrying": "16/100",
+      "Trading": "30/100",
+      "Opening": "90/100",
+      "Clutching": "78/100",
+      "Sniping": "92/100",
+      "Utility": "56/100"
+    }
+  },
+  {
+    "playername": "JW",
+    "age": "31 years",
+    "team": "EYEBALLERS",
+    "stats": {
+      "Rating 3.0": "0.96",
+      "Firepower": "35/100",
+      "Entrying": "20/100",
+      "Trading": "13/100",
+      "Opening": "53/100",
+      "Clutching": "61/100",
+      "Sniping": "88/100",
+      "Utility": "79/100"
+    }
+  },
+  {
+    "playername": "k1to",
+    "age": "27 years",
+    "team": "Nordic Partners",
+    "stats": {
+      "Rating 3.0": "0.97",
+      "Firepower": "40/100",
+      "Entrying": "55/100",
+      "Trading": "37/100",
+      "Opening": "80/100",
+      "Clutching": "46/100",
+      "Sniping": "0/100",
+      "Utility": "70/100"
+    }
+  },
+  {
+    "playername": "kade0",
+    "age": "26 years",
+    "team": "HOTU",
+    "stats": {
+      "Rating 3.0": "0.97",
+      "Firepower": "27/100",
+      "Entrying": "40/100",
+      "Trading": "42/100",
+      "Opening": "30/100",
+      "Clutching": "28/100",
+      "Sniping": "0/100",
+      "Utility": "57/100"
+    }
+  },
+  {
+    "playername": "KaiR0N-",
+    "age": "22 years",
+    "team": "Nemiga",
+    "stats": {
+      "Rating 3.0": "1.04",
+      "Firepower": "70/100",
+      "Entrying": "44/100",
+      "Trading": "57/100",
+      "Opening": "50/100",
+      "Clutching": "71/100",
+      "Sniping": "0/100",
+      "Utility": "24/100"
+    }
+  },
+  {
+    "playername": "kAlash",
+    "age": "22 years",
+    "team": "No team",
+    "stats": {
+      "Rating 3.0": "1.02",
+      "Firepower": "51/100",
+      "Entrying": "27/100",
+      "Trading": "25/100",
+      "Opening": "34/100",
+      "Clutching": "61/100",
+      "Sniping": "4/100",
+      "Utility": "22/100"
+    }
+  },
+  {
+    "playername": "karrigan",
+    "age": "36 years",
+    "team": "Falcons",
+    "stats": {
+      "Rating 3.0": "0.74",
+      "Firepower": "2/100",
+      "Entrying": "88/100",
+      "Trading": "9/100",
+      "Opening": "34/100",
+      "Clutching": "20/100",
+      "Sniping": "1/100",
+      "Utility": "84/100"
+    }
+  },
+  {
+    "playername": "kauez",
+    "age": "23 years",
+    "team": "RED Canids (benched) (loan)",
+    "stats": {}
+  },
+  {
+    "playername": "kaze",
+    "age": "32 years",
+    "team": "No team",
+    "stats": {}
+  },
+  {
+    "playername": "KEi",
+    "age": "25 years",
+    "team": "Phantom",
+    "stats": {
+      "Rating 3.0": "1.07",
+      "Firepower": "70/100",
+      "Entrying": "62/100",
+      "Trading": "75/100",
+      "Opening": "38/100",
+      "Clutching": "44/100",
+      "Sniping": "0/100",
+      "Utility": "38/100"
+    }
+  },
+  {
+    "playername": "KENSI",
+    "age": "24 years",
+    "team": "Lavked",
+    "stats": {
+      "Rating 3.0": "0.91",
+      "Firepower": "20/100",
+      "Entrying": "51/100",
+      "Trading": "58/100",
+      "Opening": "28/100",
+      "Clutching": "45/100",
+      "Sniping": "1/100",
+      "Utility": "49/100"
+    }
+  },
+  {
+    "playername": "kensizor",
+    "age": "20 years",
+    "team": "B8",
+    "stats": {
+      "Rating 3.0": "1.03",
+      "Firepower": "64/100",
+      "Entrying": "73/100",
+      "Trading": "74/100",
+      "Opening": "46/100",
+      "Clutching": "54/100",
+      "Sniping": "0/100",
+      "Utility": "47/100"
+    }
+  },
+  {
+    "playername": "khaN",
+    "age": "22 years",
+    "team": "Nemiga",
+    "stats": {
+      "Rating 3.0": "1.10",
+      "Firepower": "73/100",
+      "Entrying": "28/100",
+      "Trading": "76/100",
+      "Opening": "64/100",
+      "Clutching": "85/100",
+      "Sniping": "91/100",
+      "Utility": "60/100"
+    }
+  },
+  {
+    "playername": "kisserek",
+    "age": "23 years",
+    "team": "SINNERS",
+    "stats": {
+      "Rating 3.0": "1.03",
+      "Firepower": "56/100",
+      "Entrying": "39/100",
+      "Trading": "16/100",
+      "Opening": "64/100",
+      "Clutching": "29/100",
+      "Sniping": "0/100",
+      "Utility": "61/100"
+    }
+  },
+  {
+    "playername": "kl1m",
+    "age": "20 years",
+    "team": "G2 Ares (benched)",
+    "stats": {
+      "Rating 3.0": "1.08",
+      "Firepower": "71/100",
+      "Entrying": "23/100",
+      "Trading": "93/100",
+      "Opening": "20/100",
+      "Clutching": "68/100",
+      "Sniping": "59/100",
+      "Utility": "44/100"
+    }
+  },
+  {
+    "playername": "koala",
+    "age": "21 years",
+    "team": "DENDELE",
+    "stats": {
+      "Rating 3.0": "1.11",
+      "Firepower": "63/100",
+      "Entrying": "12/100",
+      "Trading": "34/100",
+      "Opening": "49/100",
+      "Clutching": "70/100",
+      "Sniping": "1/100",
+      "Utility": "49/100"
+    }
+  },
+  {
+    "playername": "Krabeni",
+    "age": "21 years",
+    "team": "FUT",
+    "stats": {
+      "Rating 3.0": "1.00",
+      "Firepower": "64/100",
+      "Entrying": "27/100",
+      "Trading": "14/100",
+      "Opening": "79/100",
+      "Clutching": "34/100",
+      "Sniping": "0/100",
+      "Utility": "76/100"
+    }
+  },
+  {
+    "playername": "kraghen",
+    "age": "24 years",
+    "team": "9INE",
+    "stats": {
+      "Rating 3.0": "1.08",
+      "Firepower": "57/100",
+      "Entrying": "75/100",
+      "Trading": "16/100",
+      "Opening": "78/100",
+      "Clutching": "35/100",
+      "Sniping": "0/100",
+      "Utility": "53/100"
+    }
+  },
+  {
+    "playername": "kRaSnaL",
+    "age": "23 years",
+    "team": "ENCE (benched)",
+    "stats": {}
+  },
+  {
+    "playername": "krazy",
+    "age": "22 years",
+    "team": "SAW",
+    "stats": {
+      "Rating 3.0": "1.05",
+      "Firepower": "52/100",
+      "Entrying": "25/100",
+      "Trading": "62/100",
+      "Opening": "19/100",
+      "Clutching": "22/100",
+      "Sniping": "0/100",
+      "Utility": "31/100"
+    }
+  },
+  {
+    "playername": "Krimbo",
+    "age": "23 years",
+    "team": "BIG (benched)",
+    "stats": {}
+  },
+  {
+    "playername": "KRIMZ",
+    "age": "32 years",
+    "team": "EYEBALLERS",
+    "stats": {
+      "Rating 3.0": "1.11",
+      "Firepower": "62/100",
+      "Entrying": "30/100",
+      "Trading": "42/100",
+      "Opening": "30/100",
+      "Clutching": "38/100",
+      "Sniping": "1/100",
+      "Utility": "66/100"
+    }
+  },
+  {
+    "playername": "Kristou",
+    "age": "24 years",
+    "team": "No team",
+    "stats": {}
+  },
+  {
+    "playername": "KSCERATO",
+    "age": "26 years",
+    "team": "FURIA",
+    "stats": {
+      "Rating 3.0": "1.17",
+      "Firepower": "76/100",
+      "Entrying": "22/100",
+      "Trading": "72/100",
+      "Opening": "29/100",
+      "Clutching": "73/100",
+      "Sniping": "1/100",
+      "Utility": "79/100"
+    }
+  },
+  {
+    "playername": "ksloks",
+    "age": "21 years",
+    "team": "No team",
+    "stats": {}
+  },
+  {
+    "playername": "Kursy",
+    "age": "25 years",
+    "team": "3DMAX",
+    "stats": {
+      "Rating 3.0": "1.01",
+      "Firepower": "54/100",
+      "Entrying": "57/100",
+      "Trading": "66/100",
+      "Opening": "66/100",
+      "Clutching": "30/100",
+      "Sniping": "0/100",
+      "Utility": "45/100"
+    }
+  },
+  {
+    "playername": "Kvem",
+    "age": "24 years",
+    "team": "Eternal Fire",
+    "stats": {
+      "Rating 3.0": "1.23",
+      "Firepower": "96/100",
+      "Entrying": "82/100",
+      "Trading": "31/100",
+      "Opening": "93/100",
+      "Clutching": "23/100",
+      "Sniping": "5/100",
+      "Utility": "48/100"
+    }
+  },
+  {
+    "playername": "kwezz",
+    "age": "26 years",
+    "team": "STATE",
+    "stats": {
+      "Rating 3.0": "1.12",
+      "Firepower": "77/100",
+      "Entrying": "84/100",
+      "Trading": "44/100",
+      "Opening": "85/100",
+      "Clutching": "39/100",
+      "Sniping": "2/100",
+      "Utility": "78/100"
+    }
+  },
+  {
+    "playername": "Kylar",
+    "age": "26 years",
+    "team": "Phantom",
+    "stats": {
+      "Rating 3.0": "1.12",
+      "Firepower": "62/100",
+      "Entrying": "50/100",
+      "Trading": "75/100",
+      "Opening": "31/100",
+      "Clutching": "74/100",
+      "Sniping": "0/100",
+      "Utility": "66/100"
+    }
+  },
+  {
+    "playername": "kyousuke",
+    "age": "18 years",
+    "team": "Falcons",
+    "stats": {
+      "Rating 3.0": "1.19",
+      "Firepower": "89/100",
+      "Entrying": "78/100",
+      "Trading": "70/100",
+      "Opening": "80/100",
+      "Clutching": "32/100",
+      "Sniping": "0/100",
+      "Utility": "30/100"
+    }
+  },
+  {
+    "playername": "kyuubii",
+    "age": "21 years",
+    "team": "No team",
+    "stats": {
+      "Rating 3.0": "0.89",
+      "Firepower": "14/100",
+      "Entrying": "58/100",
+      "Trading": "43/100",
+      "Opening": "18/100",
+      "Clutching": "54/100",
+      "Sniping": "1/100",
+      "Utility": "50/100"
+    }
+  },
+  {
+    "playername": "kyxsan",
+    "age": "26 years",
+    "team": "Aurora",
+    "stats": {
+      "Rating 3.0": "1.01",
+      "Firepower": "24/100",
+      "Entrying": "91/100",
+      "Trading": "11/100",
+      "Opening": "51/100",
+      "Clutching": "29/100",
+      "Sniping": "0/100",
+      "Utility": "63/100"
+    }
+  },
+  {
+    "playername": "L1haNg",
+    "age": "22 years",
+    "team": "Rare Atom",
+    "stats": {}
+  },
+  {
+    "playername": "Lack1",
+    "age": "26 years",
+    "team": "FORZE Reload",
+    "stats": {
+      "Rating 3.0": "1.02",
+      "Firepower": "70/100",
+      "Entrying": "30/100",
+      "Trading": "25/100",
+      "Opening": "52/100",
+      "Clutching": "34/100",
+      "Sniping": "1/100",
+      "Utility": "30/100"
+    }
+  },
+  {
+    "playername": "Lake",
+    "age": "21 years",
+    "team": "M80",
+    "stats": {
+      "Rating 3.0": "1.12",
+      "Firepower": "72/100",
+      "Entrying": "86/100",
+      "Trading": "77/100",
+      "Opening": "78/100",
+      "Clutching": "31/100",
+      "Sniping": "0/100",
+      "Utility": "60/100"
+    }
+  },
+  {
+    "playername": "lampada",
+    "age": "22 years",
+    "team": "HOTU (benched)",
+    "stats": {}
+  },
+  {
+    "playername": "latto",
+    "age": "23 years",
+    "team": "Legacy",
+    "stats": {
+      "Rating 3.0": "1.19",
+      "Firepower": "91/100",
+      "Entrying": "24/100",
+      "Trading": "65/100",
+      "Opening": "44/100",
+      "Clutching": "72/100",
+      "Sniping": "1/100",
+      "Utility": "77/100"
+    }
+  },
+  {
+    "playername": "lauNX",
+    "age": "21 years",
+    "team": "FUT (benched)",
+    "stats": {
+      "Rating 3.0": "1.00",
+      "Firepower": "38/100",
+      "Entrying": "97/100",
+      "Trading": "88/100",
+      "Opening": "40/100",
+      "Clutching": "29/100",
+      "Sniping": "1/100",
+      "Utility": "38/100"
+    }
+  },
+  {
+    "playername": "levi",
+    "age": "21 years",
+    "team": "Imperial (benched)",
+    "stats": {
+      "Rating 3.0": "1.06",
+      "Firepower": "69/100",
+      "Entrying": "74/100",
+      "Trading": "14/100",
+      "Opening": "24/100",
+      "Clutching": "22/100",
+      "Sniping": "94/100",
+      "Utility": "40/100"
+    }
+  },
+  {
+    "playername": "Liazz",
+    "age": "28 years",
+    "team": "THUNDER dOWNUNDER",
+    "stats": {
+      "Rating 3.0": "1.11",
+      "Firepower": "67/100",
+      "Entrying": "19/100",
+      "Trading": "62/100",
+      "Opening": "12/100",
+      "Clutching": "42/100",
+      "Sniping": "1/100",
+      "Utility": "70/100"
+    }
+  },
+  {
+    "playername": "LNZ",
+    "age": "23 years",
+    "team": "MIBR",
+    "stats": {
+      "Rating 3.0": "1.02",
+      "Firepower": "30/100",
+      "Entrying": "59/100",
+      "Trading": "49/100",
+      "Opening": "38/100",
+      "Clutching": "83/100",
+      "Sniping": "1/100",
+      "Utility": "91/100"
+    }
+  },
+  {
+    "playername": "Lucaozy",
+    "age": "24 years",
+    "team": "Fluxo (benched)",
+    "stats": {
+      "Rating 3.0": "1.12",
+      "Firepower": "75/100",
+      "Entrying": "69/100",
+      "Trading": "49/100",
+      "Opening": "84/100",
+      "Clutching": "31/100",
+      "Sniping": "2/100",
+      "Utility": "19/100"
+    }
+  },
+  {
+    "playername": "luchov",
+    "age": "25 years",
+    "team": "9z",
+    "stats": {
+      "Rating 3.0": "1.12",
+      "Firepower": "82/100",
+      "Entrying": "60/100",
+      "Trading": "67/100",
+      "Opening": "78/100",
+      "Clutching": "42/100",
+      "Sniping": "0/100",
+      "Utility": "56/100"
+    }
+  },
+  {
+    "playername": "Lucky",
+    "age": "28 years",
+    "team": "3DMAX",
+    "stats": {
+      "Rating 3.0": "1.00",
+      "Firepower": "51/100",
+      "Entrying": "32/100",
+      "Trading": "77/100",
+      "Opening": "30/100",
+      "Clutching": "58/100",
+      "Sniping": "2/100",
+      "Utility": "74/100"
+    }
+  },
+  {
+    "playername": "Lucky",
+    "age": "23 years",
+    "team": "Washed",
+    "stats": {
+      "Rating 3.0": "1.22",
+      "Firepower": "85/100",
+      "Entrying": "33/100",
+      "Trading": "83/100",
+      "Opening": "50/100",
+      "Clutching": "48/100",
+      "Sniping": "41/100",
+      "Utility": "46/100"
+    }
+  },
+  {
+    "playername": "Luken",
+    "age": "29 years",
+    "team": "No team",
+    "stats": {
+      "Rating 3.0": "1.00",
+      "Firepower": "65/100",
+      "Entrying": "22/100",
+      "Trading": "79/100",
+      "Opening": "9/100",
+      "Clutching": "97/100",
+      "Sniping": "16/100",
+      "Utility": "38/100"
+    }
+  },
+  {
+    "playername": "lux",
+    "age": "24 years",
+    "team": "Luminosity",
+    "stats": {
+      "Rating 3.0": "1.04",
+      "Firepower": "52/100",
+      "Entrying": "70/100",
+      "Trading": "66/100",
+      "Opening": "49/100",
+      "Clutching": "11/100",
+      "Sniping": "0/100",
+      "Utility": "85/100"
+    }
+  },
+  {
+    "playername": "m0NESY",
+    "age": "21 years",
+    "team": "Falcons",
+    "stats": {
+      "Rating 3.0": "1.25",
+      "Firepower": "91/100",
+      "Entrying": "28/100",
+      "Trading": "54/100",
+      "Opening": "77/100",
+      "Clutching": "56/100",
+      "Sniping": "94/100",
+      "Utility": "57/100"
+    }
+  },
+  {
+    "playername": "Maden",
+    "age": "27 years",
+    "team": "No team",
+    "stats": {
+      "Rating 3.0": "1.05",
+      "Firepower": "79/100",
+      "Entrying": "18/100",
+      "Trading": "28/100",
+      "Opening": "75/100",
+      "Clutching": "28/100",
+      "Sniping": "1/100",
+      "Utility": "73/100"
+    }
+  },
+  {
+    "playername": "Magisk",
+    "age": "28 years",
+    "team": "BC.Game",
+    "stats": {
+      "Rating 3.0": "1.07",
+      "Firepower": "53/100",
+      "Entrying": "78/100",
+      "Trading": "64/100",
+      "Opening": "48/100",
+      "Clutching": "22/100",
+      "Sniping": "0/100",
+      "Utility": "75/100"
+    }
+  },
+  {
+    "playername": "magixx",
+    "age": "23 years",
+    "team": "Spirit",
+    "stats": {
+      "Rating 3.0": "0.97",
+      "Firepower": "21/100",
+      "Entrying": "70/100",
+      "Trading": "12/100",
+      "Opening": "29/100",
+      "Clutching": "53/100",
+      "Sniping": "0/100",
+      "Utility": "93/100"
+    }
+  },
+  {
+    "playername": "Magnojez",
+    "age": "21 years",
+    "team": "BetBoom",
+    "stats": {
+      "Rating 3.0": "1.23",
+      "Firepower": "93/100",
+      "Entrying": "64/100",
+      "Trading": "17/100",
+      "Opening": "86/100",
+      "Clutching": "54/100",
+      "Sniping": "4/100",
+      "Utility": "77/100"
+    }
+  },
+  {
+    "playername": "MaiL09",
+    "age": "17 years",
+    "team": "Metizport",
+    "stats": {
+      "Rating 3.0": "1.09",
+      "Firepower": "75/100",
+      "Entrying": "77/100",
+      "Trading": "77/100",
+      "Opening": "50/100",
+      "Clutching": "63/100",
+      "Sniping": "1/100",
+      "Utility": "61/100"
+    }
+  },
+  {
+    "playername": "MAJ3R",
+    "age": "35 years",
+    "team": "Aurora (benched)",
+    "stats": {
+      "Rating 3.0": "0.99",
+      "Firepower": "20/100",
+      "Entrying": "41/100",
+      "Trading": "13/100",
+      "Opening": "21/100",
+      "Clutching": "37/100",
+      "Sniping": "1/100",
+      "Utility": "81/100"
+    }
+  },
+  {
+    "playername": "Maka",
+    "age": "29 years",
+    "team": "3DMAX",
+    "stats": {
+      "Rating 3.0": "1.02",
+      "Firepower": "40/100",
+      "Entrying": "44/100",
+      "Trading": "20/100",
+      "Opening": "53/100",
+      "Clutching": "65/100",
+      "Sniping": "78/100",
+      "Utility": "90/100"
+    }
+  },
+  {
+    "playername": "makazze",
+    "age": "19 years",
+    "team": "Natus Vincere",
+    "stats": {
+      "Rating 3.0": "1.03",
+      "Firepower": "60/100",
+      "Entrying": "81/100",
+      "Trading": "11/100",
+      "Opening": "85/100",
+      "Clutching": "43/100",
+      "Sniping": "0/100",
+      "Utility": "68/100"
+    }
+  },
+  {
+    "playername": "malbsMd",
+    "age": "23 years",
+    "team": "Liquid",
+    "stats": {
+      "Rating 3.0": "1.07",
+      "Firepower": "53/100",
+      "Entrying": "85/100",
+      "Trading": "37/100",
+      "Opening": "72/100",
+      "Clutching": "34/100",
+      "Sniping": "0/100",
+      "Utility": "35/100"
+    }
+  },
+  {
+    "playername": "MartinezSa",
+    "age": "25 years",
+    "team": "HEROIC",
+    "stats": {
+      "Rating 3.0": "1.17",
+      "Firepower": "80/100",
+      "Entrying": "20/100",
+      "Trading": "42/100",
+      "Opening": "68/100",
+      "Clutching": "85/100",
+      "Sniping": "93/100",
+      "Utility": "54/100"
+    }
+  },
+  {
+    "playername": "MaSvAl",
+    "age": "23 years",
+    "team": "magic",
+    "stats": {
+      "Rating 3.0": "1.18",
+      "Firepower": "69/100",
+      "Entrying": "63/100",
+      "Trading": "36/100",
+      "Opening": "21/100",
+      "Clutching": "57/100",
+      "Sniping": "0/100",
+      "Utility": "84/100"
+    }
+  },
+  {
+    "playername": "Matheos",
+    "age": "23 years",
+    "team": "FOKUS",
+    "stats": {
+      "Rating 3.0": "1.04",
+      "Firepower": "73/100",
+      "Entrying": "57/100",
+      "Trading": "34/100",
+      "Opening": "69/100",
+      "Clutching": "43/100",
+      "Sniping": "1/100",
+      "Utility": "43/100"
+    }
+  },
+  {
+    "playername": "matios",
+    "age": "24 years",
+    "team": "Keyd Stars",
+    "stats": {
+      "Rating 3.0": "1.06",
+      "Firepower": "62/100",
+      "Entrying": "29/100",
+      "Trading": "27/100",
+      "Opening": "73/100",
+      "Clutching": "43/100",
+      "Sniping": "1/100",
+      "Utility": "60/100"
+    }
+  },
+  {
+    "playername": "MATYS",
+    "age": "24 years",
+    "team": "G2",
+    "stats": {
+      "Rating 3.0": "1.01",
+      "Firepower": "34/100",
+      "Entrying": "57/100",
+      "Trading": "46/100",
+      "Opening": "51/100",
+      "Clutching": "35/100",
+      "Sniping": "0/100",
+      "Utility": "38/100"
+    }
+  },
+  {
+    "playername": "max",
+    "age": "27 years",
+    "team": "9z",
+    "stats": {
+      "Rating 3.0": "0.90",
+      "Firepower": "8/100",
+      "Entrying": "72/100",
+      "Trading": "39/100",
+      "Opening": "15/100",
+      "Clutching": "47/100",
+      "Sniping": "0/100",
+      "Utility": "80/100"
+    }
+  },
+  {
+    "playername": "maxster",
+    "age": "22 years",
+    "team": "EYEBALLERS",
+    "stats": {
+      "Rating 3.0": "1.17",
+      "Firepower": "70/100",
+      "Entrying": "30/100",
+      "Trading": "58/100",
+      "Opening": "24/100",
+      "Clutching": "55/100",
+      "Sniping": "0/100",
+      "Utility": "55/100"
+    }
+  },
+  {
+    "playername": "maxxkor",
+    "age": "23 years",
+    "team": "DENDELE",
+    "stats": {
+      "Rating 3.0": "0.97",
+      "Firepower": "32/100",
+      "Entrying": "15/100",
+      "Trading": "68/100",
+      "Opening": "34/100",
+      "Clutching": "63/100",
+      "Sniping": "91/100",
+      "Utility": "73/100"
+    }
+  },
+  {
+    "playername": "Mercury",
+    "age": "25 years",
+    "team": "TYLOO",
+    "stats": {
+      "Rating 3.0": "1.01",
+      "Firepower": "37/100",
+      "Entrying": "69/100",
+      "Trading": "36/100",
+      "Opening": "62/100",
+      "Clutching": "49/100",
+      "Sniping": "0/100",
+      "Utility": "72/100"
+    }
+  },
+  {
+    "playername": "meyern",
+    "age": "23 years",
+    "team": "9z",
+    "stats": {
+      "Rating 3.0": "0.96",
+      "Firepower": "18/100",
+      "Entrying": "35/100",
+      "Trading": "53/100",
+      "Opening": "33/100",
+      "Clutching": "58/100",
+      "Sniping": "92/100",
+      "Utility": "57/100"
+    }
+  },
+  {
+    "playername": "mezii",
+    "age": "27 years",
+    "team": "Vitality",
+    "stats": {
+      "Rating 3.0": "0.91",
+      "Firepower": "10/100",
+      "Entrying": "31/100",
+      "Trading": "46/100",
+      "Opening": "12/100",
+      "Clutching": "52/100",
+      "Sniping": "0/100",
+      "Utility": "62/100"
+    }
+  },
+  {
+    "playername": "mir",
+    "age": "30 years",
+    "team": "Virtus.pro",
+    "stats": {
+      "Rating 3.0": "1.08",
+      "Firepower": "66/100",
+      "Entrying": "80/100",
+      "Trading": "69/100",
+      "Opening": "26/100",
+      "Clutching": "54/100",
+      "Sniping": "0/100",
+      "Utility": "91/100"
+    }
+  },
+  {
+    "playername": "MisteM",
+    "age": "24 years",
+    "team": "Eternal Fire",
+    "stats": {
+      "Rating 3.0": "0.98",
+      "Firepower": "33/100",
+      "Entrying": "64/100",
+      "Trading": "35/100",
+      "Opening": "20/100",
+      "Clutching": "64/100",
+      "Sniping": "0/100",
+      "Utility": "70/100"
+    }
+  },
+  {
+    "playername": "MistR",
+    "age": "22 years",
+    "team": "Sashi",
+    "stats": {
+      "Rating 3.0": "1.07",
+      "Firepower": "51/100",
+      "Entrying": "97/100",
+      "Trading": "85/100",
+      "Opening": "45/100",
+      "Clutching": "51/100",
+      "Sniping": "0/100",
+      "Utility": "70/100"
+    }
+  },
+  {
+    "playername": "misutaaa",
+    "age": "23 years",
+    "team": "3DMAX",
+    "stats": {
+      "Rating 3.0": "0.99",
+      "Firepower": "45/100",
+      "Entrying": "73/100",
+      "Trading": "64/100",
+      "Opening": "25/100",
+      "Clutching": "66/100",
+      "Sniping": "0/100",
+      "Utility": "39/100"
+    }
+  },
+  {
+    "playername": "mizu",
+    "age": "22 years",
+    "team": "HOTU",
+    "stats": {
+      "Rating 3.0": "1.20",
+      "Firepower": "86/100",
+      "Entrying": "45/100",
+      "Trading": "34/100",
+      "Opening": "76/100",
+      "Clutching": "52/100",
+      "Sniping": "0/100",
+      "Utility": "51/100"
+    }
+  },
+  {
+    "playername": "mo0N",
+    "age": "21 years",
+    "team": "magic",
+    "stats": {
+      "Rating 3.0": "1.05",
+      "Firepower": "59/100",
+      "Entrying": "4/100",
+      "Trading": "33/100",
+      "Opening": "39/100",
+      "Clutching": "93/100",
+      "Sniping": "92/100",
+      "Utility": "79/100"
+    }
+  },
+  {
+    "playername": "MoDo",
+    "age": "23 years",
+    "team": "SINNERS",
+    "stats": {
+      "Rating 3.0": "1.09",
+      "Firepower": "58/100",
+      "Entrying": "16/100",
+      "Trading": "30/100",
+      "Opening": "73/100",
+      "Clutching": "65/100",
+      "Sniping": "94/100",
+      "Utility": "57/100"
+    }
+  },
+  {
+    "playername": "molodoy",
+    "age": "21 years",
+    "team": "FURIA",
+    "stats": {
+      "Rating 3.0": "1.14",
+      "Firepower": "86/100",
+      "Entrying": "12/100",
+      "Trading": "51/100",
+      "Opening": "87/100",
+      "Clutching": "51/100",
+      "Sniping": "93/100",
+      "Utility": "46/100"
+    }
+  },
+  {
+    "playername": "mopoz",
+    "age": "30 years",
+    "team": "Iberian Soul",
+    "stats": {
+      "Rating 3.0": "1.11",
+      "Firepower": "62/100",
+      "Entrying": "57/100",
+      "Trading": "27/100",
+      "Opening": "58/100",
+      "Clutching": "47/100",
+      "Sniping": "0/100",
+      "Utility": "65/100"
+    }
+  },
+  {
+    "playername": "Moseyuh",
+    "age": "21 years",
+    "team": "TYLOO",
+    "stats": {
+      "Rating 3.0": "1.00",
+      "Firepower": "31/100",
+      "Entrying": "61/100",
+      "Trading": "56/100",
+      "Opening": "60/100",
+      "Clutching": "29/100",
+      "Sniping": "0/100",
+      "Utility": "27/100"
+    }
+  },
+  {
+    "playername": "MUTiRiS",
+    "age": "33 years",
+    "team": "SAW",
+    "stats": {
+      "Rating 3.0": "1.09",
+      "Firepower": "36/100",
+      "Entrying": "46/100",
+      "Trading": "33/100",
+      "Opening": "74/100",
+      "Clutching": "42/100",
+      "Sniping": "0/100",
+      "Utility": "94/100"
+    }
+  },
+  {
+    "playername": "myltsi",
+    "age": "21 years",
+    "team": "Nordic Partners",
+    "stats": {
+      "Rating 3.0": "1.01",
+      "Firepower": "48/100",
+      "Entrying": "62/100",
+      "Trading": "53/100",
+      "Opening": "65/100",
+      "Clutching": "53/100",
+      "Sniping": "0/100",
+      "Utility": "52/100"
+    }
+  },
+  {
+    "playername": "mzinho",
+    "age": "19 years",
+    "team": "BC.Game",
+    "stats": {
+      "Rating 3.0": "1.04",
+      "Firepower": "41/100",
+      "Entrying": "48/100",
+      "Trading": "52/100",
+      "Opening": "44/100",
+      "Clutching": "28/100",
+      "Sniping": "0/100",
+      "Utility": "49/100"
+    }
+  },
+  {
+    "playername": "n0rb3r7",
+    "age": "25 years",
+    "team": "HOTU",
+    "stats": {
+      "Rating 3.0": "1.12",
+      "Firepower": "76/100",
+      "Entrying": "38/100",
+      "Trading": "15/100",
+      "Opening": "54/100",
+      "Clutching": "41/100",
+      "Sniping": "0/100",
+      "Utility": "39/100"
+    }
+  },
+  {
+    "playername": "n0te",
+    "age": "20 years",
+    "team": "Ninjas in Pyjamas",
+    "stats": {
+      "Rating 3.0": "1.10",
+      "Firepower": "84/100",
+      "Entrying": "15/100",
+      "Trading": "32/100",
+      "Opening": "72/100",
+      "Clutching": "53/100",
+      "Sniping": "0/100",
+      "Utility": "13/100"
+    }
+  },
+  {
+    "playername": "n1ssim",
+    "age": "25 years",
+    "team": "Legacy",
+    "stats": {
+      "Rating 3.0": "0.96",
+      "Firepower": "15/100",
+      "Entrying": "21/100",
+      "Trading": "32/100",
+      "Opening": "11/100",
+      "Clutching": "39/100",
+      "Sniping": "0/100",
+      "Utility": "42/100"
+    }
+  },
+  {
+    "playername": "NAF",
+    "age": "28 years",
+    "team": "Liquid",
+    "stats": {
+      "Rating 3.0": "1.11",
+      "Firepower": "58/100",
+      "Entrying": "14/100",
+      "Trading": "58/100",
+      "Opening": "25/100",
+      "Clutching": "84/100",
+      "Sniping": "6/100",
+      "Utility": "48/100"
+    }
+  },
+  {
+    "playername": "nafany",
+    "age": "25 years",
+    "team": "1win",
+    "stats": {
+      "Rating 3.0": "1.01",
+      "Firepower": "50/100",
+      "Entrying": "62/100",
+      "Trading": "17/100",
+      "Opening": "83/100",
+      "Clutching": "26/100",
+      "Sniping": "0/100",
+      "Utility": "74/100"
+    }
+  },
+  {
+    "playername": "naitte",
+    "age": "28 years",
+    "team": "No team",
+    "stats": {
+      "Rating 3.0": "1.06",
+      "Firepower": "82/100",
+      "Entrying": "91/100",
+      "Trading": "27/100",
+      "Opening": "98/100",
+      "Clutching": "1/100",
+      "Sniping": "7/100",
+      "Utility": "65/100"
+    }
+  },
+  {
+    "playername": "nawwk",
+    "age": "28 years",
+    "team": "Johnny Speeds (benched)",
+    "stats": {
+      "Rating 3.0": "1.14",
+      "Firepower": "77/100",
+      "Entrying": "22/100",
+      "Trading": "77/100",
+      "Opening": "35/100",
+      "Clutching": "96/100",
+      "Sniping": "91/100",
+      "Utility": "58/100"
+    }
+  },
+  {
+    "playername": "naz",
+    "age": "26 years",
+    "team": "ShindeN",
+    "stats": {
+      "Rating 3.0": "1.07",
+      "Firepower": "41/100",
+      "Entrying": "76/100",
+      "Trading": "19/100",
+      "Opening": "72/100",
+      "Clutching": "51/100",
+      "Sniping": "0/100",
+      "Utility": "65/100"
+    }
+  },
+  {
+    "playername": "Neityu",
+    "age": "21 years",
+    "team": "FaZe",
+    "stats": {
+      "Rating 3.0": "0.98",
+      "Firepower": "29/100",
+      "Entrying": "65/100",
+      "Trading": "27/100",
+      "Opening": "15/100",
+      "Clutching": "60/100",
+      "Sniping": "0/100",
+      "Utility": "54/100"
+    }
+  },
+  {
+    "playername": "nEMANHA",
+    "age": "28 years",
+    "team": "Wildcard",
+    "stats": {
+      "Rating 3.0": "1.08",
+      "Firepower": "62/100",
+      "Entrying": "28/100",
+      "Trading": "27/100",
+      "Opening": "87/100",
+      "Clutching": "26/100",
+      "Sniping": "1/100",
+      "Utility": "84/100"
+    }
+  },
+  {
+    "playername": "NertZ",
+    "age": "27 years",
+    "team": "G2",
+    "stats": {
+      "Rating 3.0": "1.05",
+      "Firepower": "68/100",
+      "Entrying": "51/100",
+      "Trading": "23/100",
+      "Opening": "82/100",
+      "Clutching": "28/100",
+      "Sniping": "0/100",
+      "Utility": "51/100"
+    }
+  },
+  {
+    "playername": "nettik",
+    "age": "23 years",
+    "team": "FlyQuest",
+    "stats": {
+      "Rating 3.0": "1.18",
+      "Firepower": "69/100",
+      "Entrying": "95/100",
+      "Trading": "76/100",
+      "Opening": "55/100",
+      "Clutching": "24/100",
+      "Sniping": "0/100",
+      "Utility": "76/100"
+    }
+  },
+  {
+    "playername": "nexa",
+    "age": "29 years",
+    "team": "No team",
+    "stats": {
+      "Rating 3.0": "1.27",
+      "Firepower": "76/100",
+      "Entrying": "84/100",
+      "Trading": "54/100",
+      "Opening": "20/100",
+      "Clutching": "26/100",
+      "Sniping": "0/100",
+      "Utility": "78/100"
+    }
+  },
+  {
+    "playername": "nicks",
+    "age": "21 years",
+    "team": "Patins da Ferrari",
+    "stats": {
+      "Rating 3.0": "1.16",
+      "Firepower": "78/100",
+      "Entrying": "23/100",
+      "Trading": "76/100",
+      "Opening": "33/100",
+      "Clutching": "40/100",
+      "Sniping": "0/100",
+      "Utility": "61/100"
+    }
+  },
+  {
+    "playername": "nicoodoz",
+    "age": "26 years",
+    "team": "Phantom",
+    "stats": {
+      "Rating 3.0": "1.18",
+      "Firepower": "92/100",
+      "Entrying": "23/100",
+      "Trading": "62/100",
+      "Opening": "52/100",
+      "Clutching": "46/100",
+      "Sniping": "52/100",
+      "Utility": "65/100"
+    }
+  },
+  {
+    "playername": "nicx",
+    "age": "21 years",
+    "team": "Marsborne",
+    "stats": {
+      "Rating 3.0": "1.19",
+      "Firepower": "80/100",
+      "Entrying": "90/100",
+      "Trading": "38/100",
+      "Opening": "56/100",
+      "Clutching": "39/100",
+      "Sniping": "1/100",
+      "Utility": "37/100"
+    }
+  },
+  {
+    "playername": "nifee",
+    "age": "22 years",
+    "team": "No team",
+    "stats": {}
+  },
+  {
+    "playername": "NiKo",
+    "age": "29 years",
+    "team": "Falcons",
+    "stats": {
+      "Rating 3.0": "1.17",
+      "Firepower": "73/100",
+      "Entrying": "42/100",
+      "Trading": "60/100",
+      "Opening": "48/100",
+      "Clutching": "79/100",
+      "Sniping": "0/100",
+      "Utility": "70/100"
+    }
+  },
+  {
+    "playername": "nilo",
+    "age": "21 years",
+    "team": "HEROIC",
+    "stats": {
+      "Rating 3.0": "1.18",
+      "Firepower": "85/100",
+      "Entrying": "50/100",
+      "Trading": "77/100",
+      "Opening": "36/100",
+      "Clutching": "57/100",
+      "Sniping": "0/100",
+      "Utility": "29/100"
+    }
+  },
+  {
+    "playername": "nitr0",
+    "age": "31 years",
+    "team": "NRG",
+    "stats": {
+      "Rating 3.0": "1.06",
+      "Firepower": "46/100",
+      "Entrying": "97/100",
+      "Trading": "48/100",
+      "Opening": "15/100",
+      "Clutching": "45/100",
+      "Sniping": "1/100",
+      "Utility": "75/100"
+    }
+  },
+  {
+    "playername": "Nivera",
+    "age": "25 years",
+    "team": "Clutchain",
+    "stats": {
+      "Rating 3.0": "1.03",
+      "Firepower": "52/100",
+      "Entrying": "83/100",
+      "Trading": "41/100",
+      "Opening": "28/100",
+      "Clutching": "62/100",
+      "Sniping": "9/100",
+      "Utility": "29/100"
+    }
+  },
+  {
+    "playername": "Noktse",
+    "age": "33 years",
+    "team": "No team",
+    "stats": {}
+  },
+  {
+    "playername": "Norwi",
+    "age": "25 years",
+    "team": "BAKS",
+    "stats": {
+      "Rating 3.0": "1.03",
+      "Firepower": "52/100",
+      "Entrying": "29/100",
+      "Trading": "53/100",
+      "Opening": "30/100",
+      "Clutching": "43/100",
+      "Sniping": "2/100",
+      "Utility": "68/100"
+    }
+  },
+  {
+    "playername": "nota",
+    "age": "19 years",
+    "team": "PARIVISION (benched)",
+    "stats": {
+      "Rating 3.0": "0.94",
+      "Firepower": "37/100",
+      "Entrying": "46/100",
+      "Trading": "63/100",
+      "Opening": "42/100",
+      "Clutching": "28/100",
+      "Sniping": "1/100",
+      "Utility": "57/100"
+    }
+  },
+  {
+    "playername": "noway",
+    "age": "21 years",
+    "team": "Imperial",
+    "stats": {
+      "Rating 3.0": "1.10",
+      "Firepower": "59/100",
+      "Entrying": "85/100",
+      "Trading": "59/100",
+      "Opening": "48/100",
+      "Clutching": "36/100",
+      "Sniping": "1/100",
+      "Utility": "40/100"
+    }
+  },
+  {
+    "playername": "npl",
+    "age": "21 years",
+    "team": "B8",
+    "stats": {
+      "Rating 3.0": "1.11",
+      "Firepower": "81/100",
+      "Entrying": "50/100",
+      "Trading": "54/100",
+      "Opening": "72/100",
+      "Clutching": "42/100",
+      "Sniping": "0/100",
+      "Utility": "41/100"
+    }
+  },
+  {
+    "playername": "nqz",
+    "age": "21 years",
+    "team": "MIBR",
+    "stats": {
+      "Rating 3.0": "1.08",
+      "Firepower": "56/100",
+      "Entrying": "23/100",
+      "Trading": "74/100",
+      "Opening": "40/100",
+      "Clutching": "95/100",
+      "Sniping": "91/100",
+      "Utility": "55/100"
+    }
+  },
+  {
+    "playername": "NucleonZ",
+    "age": "18 years",
+    "team": "Falcons Force",
+    "stats": {
+      "Rating 3.0": "1.01",
+      "Firepower": "49/100",
+      "Entrying": "16/100",
+      "Trading": "30/100",
+      "Opening": "80/100",
+      "Clutching": "70/100",
+      "Sniping": "1/100",
+      "Utility": "40/100"
+    }
+  },
+  {
+    "playername": "nut nut",
+    "age": "20 years",
+    "team": "ECSTATIC (benched)",
+    "stats": {}
+  },
+  {
+    "playername": "nyezin",
+    "age": "22 years",
+    "team": "No team",
+    "stats": {
+      "Rating 3.0": "1.07",
+      "Firepower": "80/100",
+      "Entrying": "30/100",
+      "Trading": "46/100",
+      "Opening": "74/100",
+      "Clutching": "36/100",
+      "Sniping": "1/100",
+      "Utility": "66/100"
+    }
+  },
+  {
+    "playername": "nython",
+    "age": "28 years",
+    "team": "Galorys (benched)",
+    "stats": {
+      "Rating 3.0": "0.89",
+      "Firepower": "9/100",
+      "Entrying": "51/100",
+      "Trading": "79/100",
+      "Opening": "18/100",
+      "Clutching": "32/100",
+      "Sniping": "2/100",
+      "Utility": "75/100"
+    }
+  },
+  {
+    "playername": "onic",
+    "age": "21 years",
+    "team": "Inner Circle",
+    "stats": {
+      "Rating 3.0": "1.01",
+      "Firepower": "24/100",
+      "Entrying": "34/100",
+      "Trading": "14/100",
+      "Opening": "32/100",
+      "Clutching": "71/100",
+      "Sniping": "6/100",
+      "Utility": "88/100"
+    }
+  },
+  {
+    "playername": "oSee",
+    "age": "27 years",
+    "team": "NRG (benched)",
+    "stats": {
+      "Rating 3.0": "0.86",
+      "Firepower": "7/100",
+      "Entrying": "11/100",
+      "Trading": "84/100",
+      "Opening": "39/100",
+      "Clutching": "56/100",
+      "Sniping": "87/100",
+      "Utility": "58/100"
+    }
+  },
+  {
+    "playername": "oxygeN",
+    "age": "23 years",
+    "team": "No team",
+    "stats": {}
+  },
+  {
+    "playername": "pancc",
+    "age": "28 years",
+    "team": "UNO MILLE",
+    "stats": {
+      "Rating 3.0": "1.05",
+      "Firepower": "70/100",
+      "Entrying": "45/100",
+      "Trading": "45/100",
+      "Opening": "76/100",
+      "Clutching": "35/100",
+      "Sniping": "0/100",
+      "Utility": "49/100"
+    }
+  },
+  {
+    "playername": "Peeping",
+    "age": "21 years",
+    "team": "SportsBetExpert",
+    "stats": {
+      "Rating 3.0": "1.16",
+      "Firepower": "90/100",
+      "Entrying": "80/100",
+      "Trading": "23/100",
+      "Opening": "89/100",
+      "Clutching": "36/100",
+      "Sniping": "2/100",
+      "Utility": "65/100"
+    }
+  },
+  {
+    "playername": "Perfecto",
+    "age": "26 years",
+    "team": "No team",
+    "stats": {}
+  },
+  {
+    "playername": "phzy",
+    "age": "23 years",
+    "team": "Astralis",
+    "stats": {
+      "Rating 3.0": "0.95",
+      "Firepower": "26/100",
+      "Entrying": "15/100",
+      "Trading": "41/100",
+      "Opening": "66/100",
+      "Clutching": "74/100",
+      "Sniping": "91/100",
+      "Utility": "65/100"
+    }
+  },
+  {
+    "playername": "piriajr",
+    "age": "23 years",
+    "team": "paiN",
+    "stats": {
+      "Rating 3.0": "1.03",
+      "Firepower": "46/100",
+      "Entrying": "10/100",
+      "Trading": "27/100",
+      "Opening": "57/100",
+      "Clutching": "66/100",
+      "Sniping": "7/100",
+      "Utility": "18/100"
+    }
+  },
+  {
+    "playername": "podi",
+    "age": "22 years",
+    "team": "FOKUS",
+    "stats": {
+      "Rating 3.0": "1.01",
+      "Firepower": "26/100",
+      "Entrying": "22/100",
+      "Trading": "59/100",
+      "Opening": "34/100",
+      "Clutching": "93/100",
+      "Sniping": "91/100",
+      "Utility": "48/100"
+    }
+  },
+  {
+    "playername": "PR",
+    "age": "18 years",
+    "team": "MOUZ",
+    "stats": {
+      "Rating 3.0": "1.01",
+      "Firepower": "51/100",
+      "Entrying": "54/100",
+      "Trading": "51/100",
+      "Opening": "52/100",
+      "Clutching": "41/100",
+      "Sniping": "1/100",
+      "Utility": "56/100"
+    }
+  },
+  {
+    "playername": "pr1metapz",
+    "age": "25 years",
+    "team": "OG (loan)",
+    "stats": {
+      "Rating 3.0": "0.94",
+      "Firepower": "8/100",
+      "Entrying": "64/100",
+      "Trading": "30/100",
+      "Opening": "14/100",
+      "Clutching": "74/100",
+      "Sniping": "0/100",
+      "Utility": "36/100"
+    }
+  },
+  {
+    "playername": "Prism",
+    "age": "28 years",
+    "team": "Betclic",
+    "stats": {
+      "Rating 3.0": "1.07",
+      "Firepower": "66/100",
+      "Entrying": "66/100",
+      "Trading": "25/100",
+      "Opening": "73/100",
+      "Clutching": "27/100",
+      "Sniping": "0/100",
+      "Utility": "74/100"
+    }
+  },
+  {
+    "playername": "prosus",
+    "age": "23 years",
+    "team": "BIG Academy",
+    "stats": {
+      "Rating 3.0": "1.17",
+      "Firepower": "91/100",
+      "Entrying": "77/100",
+      "Trading": "28/100",
+      "Opening": "86/100",
+      "Clutching": "39/100",
+      "Sniping": "2/100",
+      "Utility": "57/100"
+    }
+  },
+  {
+    "playername": "Qikert",
+    "age": "27 years",
+    "team": "Color",
+    "stats": {
+      "Rating 3.0": "0.89",
+      "Firepower": "6/100",
+      "Entrying": "79/100",
+      "Trading": "56/100",
+      "Opening": "32/100",
+      "Clutching": "44/100",
+      "Sniping": "0/100",
+      "Utility": "84/100"
+    }
+  },
+  {
+    "playername": "r1nkle",
+    "age": "21 years",
+    "team": "G2",
+    "stats": {
+      "Rating 3.0": "0.99",
+      "Firepower": "27/100",
+      "Entrying": "9/100",
+      "Trading": "15/100",
+      "Opening": "49/100",
+      "Clutching": "35/100",
+      "Sniping": "92/100",
+      "Utility": "67/100"
+    }
+  },
+  {
+    "playername": "raalz",
+    "age": "31 years",
+    "team": "9INE",
+    "stats": {
+      "Rating 3.0": "0.94",
+      "Firepower": "38/100",
+      "Entrying": "58/100",
+      "Trading": "21/100",
+      "Opening": "38/100",
+      "Clutching": "43/100",
+      "Sniping": "0/100",
+      "Utility": "86/100"
+    }
+  },
+  {
+    "playername": "rain",
+    "age": "31 years",
+    "team": "100 Thieves",
+    "stats": {
+      "Rating 3.0": "1.06",
+      "Firepower": "52/100",
+      "Entrying": "85/100",
+      "Trading": "24/100",
+      "Opening": "63/100",
+      "Clutching": "27/100",
+      "Sniping": "0/100",
+      "Utility": "71/100"
+    }
+  },
+  {
+    "playername": "Rainwaker",
+    "age": "25 years",
+    "team": "Luminosity",
+    "stats": {
+      "Rating 3.0": "0.98",
+      "Firepower": "39/100",
+      "Entrying": "19/100",
+      "Trading": "11/100",
+      "Opening": "47/100",
+      "Clutching": "36/100",
+      "Sniping": "0/100",
+      "Utility": "28/100"
+    }
+  },
+  {
+    "playername": "rdnzao",
+    "age": "23 years",
+    "team": "DENDELE",
+    "stats": {
+      "Rating 3.0": "0.98",
+      "Firepower": "40/100",
+      "Entrying": "83/100",
+      "Trading": "47/100",
+      "Opening": "53/100",
+      "Clutching": "45/100",
+      "Sniping": "0/100",
+      "Utility": "58/100"
+    }
+  },
+  {
+    "playername": "reck",
+    "age": "22 years",
+    "team": "Wildcard",
+    "stats": {
+      "Rating 3.0": "1.02",
+      "Firepower": "32/100",
+      "Entrying": "63/100",
+      "Trading": "73/100",
+      "Opening": "14/100",
+      "Clutching": "56/100",
+      "Sniping": "0/100",
+      "Utility": "79/100"
+    }
+  },
+  {
+    "playername": "regali",
+    "age": "23 years",
+    "team": "Eternal Fire",
+    "stats": {
+      "Rating 3.0": "1.06",
+      "Firepower": "56/100",
+      "Entrying": "18/100",
+      "Trading": "71/100",
+      "Opening": "33/100",
+      "Clutching": "93/100",
+      "Sniping": "91/100",
+      "Utility": "60/100"
+    }
+  },
+  {
+    "playername": "REZ",
+    "age": "28 years",
+    "team": "GamerLegion",
+    "stats": {
+      "Rating 3.0": "1.06",
+      "Firepower": "70/100",
+      "Entrying": "70/100",
+      "Trading": "74/100",
+      "Opening": "51/100",
+      "Clutching": "49/100",
+      "Sniping": "1/100",
+      "Utility": "57/100"
+    }
+  },
+  {
+    "playername": "rigoN",
+    "age": "26 years",
+    "team": "No team",
+    "stats": {
+      "Rating 3.0": "0.98",
+      "Firepower": "64/100",
+      "Entrying": "69/100",
+      "Trading": "23/100",
+      "Opening": "76/100",
+      "Clutching": "46/100",
+      "Sniping": "0/100",
+      "Utility": "41/100"
+    }
+  },
+  {
+    "playername": "rikz",
+    "age": "35 years",
+    "team": "paiN (coach)",
+    "stats": {}
+  },
+  {
+    "playername": "riskyb0b",
+    "age": "23 years",
+    "team": "No team",
+    "stats": {
+      "Rating 3.0": "1.05",
+      "Firepower": "65/100",
+      "Entrying": "16/100",
+      "Trading": "7/100",
+      "Opening": "26/100",
+      "Clutching": "33/100",
+      "Sniping": "4/100",
+      "Utility": "41/100"
+    }
+  },
+  {
+    "playername": "Ro1f",
+    "age": "22 years",
+    "team": "EYEBALLERS",
+    "stats": {
+      "Rating 3.0": "0.96",
+      "Firepower": "19/100",
+      "Entrying": "69/100",
+      "Trading": "52/100",
+      "Opening": "17/100",
+      "Clutching": "61/100",
+      "Sniping": "0/100",
+      "Utility": "84/100"
+    }
+  },
+  {
+    "playername": "roman",
+    "age": "37 years",
+    "team": "No team",
+    "stats": {}
+  },
+  {
+    "playername": "ropz",
+    "age": "26 years",
+    "team": "Vitality",
+    "stats": {
+      "Rating 3.0": "1.09",
+      "Firepower": "67/100",
+      "Entrying": "1/100",
+      "Trading": "32/100",
+      "Opening": "55/100",
+      "Clutching": "33/100",
+      "Sniping": "0/100",
+      "Utility": "27/100"
+    }
+  },
+  {
+    "playername": "ruggah",
+    "age": "37 years",
+    "team": "No team",
+    "stats": {}
+  },
+  {
+    "playername": "ryu",
+    "age": "22 years",
+    "team": "Astralis",
+    "stats": {
+      "Rating 3.0": "1.04",
+      "Firepower": "44/100",
+      "Entrying": "27/100",
+      "Trading": "70/100",
+      "Opening": "43/100",
+      "Clutching": "47/100",
+      "Sniping": "0/100",
+      "Utility": "28/100"
+    }
+  },
+  {
+    "playername": "s-chilla",
+    "age": "21 years",
+    "team": "No team",
+    "stats": {}
+  },
+  {
+    "playername": "s1mple",
+    "age": "28 years",
+    "team": "BC.Game",
+    "stats": {
+      "Rating 3.0": "1.23",
+      "Firepower": "88/100",
+      "Entrying": "16/100",
+      "Trading": "61/100",
+      "Opening": "72/100",
+      "Clutching": "84/100",
+      "Sniping": "87/100",
+      "Utility": "67/100"
+    }
+  },
+  {
+    "playername": "s1n",
+    "age": "24 years",
+    "team": "M80",
+    "stats": {
+      "Rating 3.0": "0.88",
+      "Firepower": "11/100",
+      "Entrying": "41/100",
+      "Trading": "50/100",
+      "Opening": "19/100",
+      "Clutching": "43/100",
+      "Sniping": "1/100",
+      "Utility": "86/100"
+    }
+  },
+  {
+    "playername": "S1ren",
+    "age": "24 years",
+    "team": "BetBoom",
+    "stats": {
+      "Rating 3.0": "0.89",
+      "Firepower": "9/100",
+      "Entrying": "98/100",
+      "Trading": "94/100",
+      "Opening": "37/100",
+      "Clutching": "15/100",
+      "Sniping": "0/100",
+      "Utility": "38/100"
+    }
+  },
+  {
+    "playername": "s1zzi",
+    "age": "16 years",
+    "team": "B8 (loan)",
+    "stats": {
+      "Rating 3.0": "1.02",
+      "Firepower": "59/100",
+      "Entrying": "28/100",
+      "Trading": "28/100",
+      "Opening": "73/100",
+      "Clutching": "57/100",
+      "Sniping": "94/100",
+      "Utility": "47/100"
+    }
+  },
+  {
+    "playername": "saadzin",
+    "age": "22 years",
+    "team": "Imperial",
+    "stats": {
+      "Rating 3.0": "1.10",
+      "Firepower": "57/100",
+      "Entrying": "19/100",
+      "Trading": "44/100",
+      "Opening": "67/100",
+      "Clutching": "77/100",
+      "Sniping": "93/100",
+      "Utility": "67/100"
+    }
+  },
+  {
+    "playername": "saffee",
+    "age": "31 years",
+    "team": "paiN",
+    "stats": {
+      "Rating 3.0": "1.00",
+      "Firepower": "35/100",
+      "Entrying": "9/100",
+      "Trading": "17/100",
+      "Opening": "50/100",
+      "Clutching": "92/100",
+      "Sniping": "93/100",
+      "Utility": "54/100"
+    }
+  },
+  {
+    "playername": "SaMey",
+    "age": "26 years",
+    "team": "Walczaki",
+    "stats": {
+      "Rating 3.0": "1.03",
+      "Firepower": "48/100",
+      "Entrying": "18/100",
+      "Trading": "34/100",
+      "Opening": "30/100",
+      "Clutching": "89/100",
+      "Sniping": "91/100",
+      "Utility": "60/100"
+    }
+  },
+  {
+    "playername": "sausol",
+    "age": "26 years",
+    "team": "Iberian Soul",
+    "stats": {
+      "Rating 3.0": "1.05",
+      "Firepower": "63/100",
+      "Entrying": "23/100",
+      "Trading": "38/100",
+      "Opening": "55/100",
+      "Clutching": "49/100",
+      "Sniping": "0/100",
+      "Utility": "58/100"
+    }
+  },
+  {
+    "playername": "sAw",
+    "age": "34 years",
+    "team": "G2 (coach)",
+    "stats": {}
+  },
+  {
+    "playername": "Scr0b",
+    "age": "22 years",
+    "team": "HYPERSPIRIT",
+    "stats": {
+      "Rating 3.0": "1.05",
+      "Firepower": "25/100",
+      "Entrying": "74/100",
+      "Trading": "87/100",
+      "Opening": "56/100",
+      "Clutching": "10/100",
+      "Sniping": "81/100",
+      "Utility": "55/100"
+    }
+  },
+  {
+    "playername": "sdy",
+    "age": "29 years",
+    "team": "No team",
+    "stats": {}
+  },
+  {
+    "playername": "segukawa",
+    "age": "16 years",
+    "team": "B8 Academy",
+    "stats": {
+      "Rating 3.0": "1.14",
+      "Firepower": "82/100",
+      "Entrying": "8/100",
+      "Trading": "74/100",
+      "Opening": "22/100",
+      "Clutching": "72/100",
+      "Sniping": "90/100",
+      "Utility": "64/100"
+    }
+  },
+  {
+    "playername": "SELLTER",
+    "age": "23 years",
+    "team": "Nemesis",
+    "stats": {
+      "Rating 3.0": "0.96",
+      "Firepower": "20/100",
+      "Entrying": "72/100",
+      "Trading": "58/100",
+      "Opening": "31/100",
+      "Clutching": "47/100",
+      "Sniping": "0/100",
+      "Utility": "74/100"
+    }
+  },
+  {
+    "playername": "Senzu",
+    "age": "20 years",
+    "team": "BC.Game",
+    "stats": {
+      "Rating 3.0": "1.32",
+      "Firepower": "95/100",
+      "Entrying": "70/100",
+      "Trading": "66/100",
+      "Opening": "85/100",
+      "Clutching": "60/100",
+      "Sniping": "1/100",
+      "Utility": "56/100"
+    }
+  },
+  {
+    "playername": "sFade8",
+    "age": "22 years",
+    "team": "magic",
+    "stats": {
+      "Rating 3.0": "0.94",
+      "Firepower": "35/100",
+      "Entrying": "37/100",
+      "Trading": "13/100",
+      "Opening": "84/100",
+      "Clutching": "17/100",
+      "Sniping": "0/100",
+      "Utility": "76/100"
+    }
+  },
+  {
+    "playername": "sh1ro",
+    "age": "25 years",
+    "team": "Spirit",
+    "stats": {
+      "Rating 3.0": "1.16",
+      "Firepower": "83/100",
+      "Entrying": "40/100",
+      "Trading": "71/100",
+      "Opening": "51/100",
+      "Clutching": "85/100",
+      "Sniping": "94/100",
+      "Utility": "64/100"
+    }
+  },
+  {
+    "playername": "SHiPZ",
+    "age": "26 years",
+    "team": "No team",
+    "stats": {
+      "Rating 3.0": "1.38",
+      "Firepower": "92/100",
+      "Entrying": "36/100",
+      "Trading": "4/100",
+      "Opening": "63/100",
+      "Clutching": "10/100",
+      "Sniping": "12/100",
+      "Utility": "68/100"
+    }
+  },
+  {
+    "playername": "SHOCK",
+    "age": "25 years",
+    "team": "SINNERS",
+    "stats": {
+      "Rating 3.0": "1.03",
+      "Firepower": "29/100",
+      "Entrying": "11/100",
+      "Trading": "27/100",
+      "Opening": "45/100",
+      "Clutching": "68/100",
+      "Sniping": "1/100",
+      "Utility": "46/100"
+    }
+  },
+  {
+    "playername": "Shr",
+    "age": "25 years",
+    "team": "No team",
+    "stats": {}
+  },
+  {
+    "playername": "sirah",
+    "age": "19 years",
+    "team": "100 Thieves",
+    "stats": {
+      "Rating 3.0": "1.01",
+      "Firepower": "51/100",
+      "Entrying": "36/100",
+      "Trading": "79/100",
+      "Opening": "29/100",
+      "Clutching": "42/100",
+      "Sniping": "0/100",
+      "Utility": "52/100"
+    }
+  },
+  {
+    "playername": "siuhy",
+    "age": "23 years",
+    "team": "Liquid (benched)",
+    "stats": {
+      "Rating 3.0": "0.81",
+      "Firepower": "3/100",
+      "Entrying": "81/100",
+      "Trading": "55/100",
+      "Opening": "23/100",
+      "Clutching": "10/100",
+      "Sniping": "0/100",
+      "Utility": "86/100"
+    }
+  },
+  {
+    "playername": "sjuush",
+    "age": "27 years",
+    "team": "Ninjas in Pyjamas",
+    "stats": {
+      "Rating 3.0": "1.03",
+      "Firepower": "53/100",
+      "Entrying": "45/100",
+      "Trading": "41/100",
+      "Opening": "48/100",
+      "Clutching": "70/100",
+      "Sniping": "0/100",
+      "Utility": "68/100"
+    }
+  },
+  {
+    "playername": "skullz",
+    "age": "24 years",
+    "team": "Imperial (benched)",
+    "stats": {}
+  },
+  {
+    "playername": "sl3nd",
+    "age": "21 years",
+    "team": "INFINITE",
+    "stats": {
+      "Rating 3.0": "1.17",
+      "Firepower": "96/100",
+      "Entrying": "14/100",
+      "Trading": "82/100",
+      "Opening": "64/100",
+      "Clutching": "73/100",
+      "Sniping": "90/100",
+      "Utility": "81/100"
+    }
+  },
+  {
+    "playername": "slaxejezzz",
+    "age": "18 years",
+    "team": "PARIVISION",
+    "stats": {
+      "Rating 3.0": "1.14",
+      "Firepower": "79/100",
+      "Entrying": "68/100",
+      "Trading": "73/100",
+      "Opening": "48/100",
+      "Clutching": "71/100",
+      "Sniping": "2/100",
+      "Utility": "59/100"
+    }
+  },
+  {
+    "playername": "slaxz-",
+    "age": "27 years",
+    "team": "M80",
+    "stats": {
+      "Rating 3.0": "1.11",
+      "Firepower": "72/100",
+      "Entrying": "21/100",
+      "Trading": "43/100",
+      "Opening": "76/100",
+      "Clutching": "44/100",
+      "Sniping": "93/100",
+      "Utility": "68/100"
+    }
+  },
+  {
+    "playername": "Snappi",
+    "age": "36 years",
+    "team": "Ninjas in Pyjamas",
+    "stats": {
+      "Rating 3.0": "0.87",
+      "Firepower": "11/100",
+      "Entrying": "58/100",
+      "Trading": "11/100",
+      "Opening": "29/100",
+      "Clutching": "44/100",
+      "Sniping": "1/100",
+      "Utility": "86/100"
+    }
+  },
+  {
+    "playername": "Snax",
+    "age": "33 years",
+    "team": "GamerLegion",
+    "stats": {
+      "Rating 3.0": "0.91",
+      "Firepower": "30/100",
+      "Entrying": "33/100",
+      "Trading": "21/100",
+      "Opening": "61/100",
+      "Clutching": "75/100",
+      "Sniping": "2/100",
+      "Utility": "79/100"
+    }
+  },
+  {
+    "playername": "snow",
+    "age": "19 years",
+    "team": "paiN",
+    "stats": {
+      "Rating 3.0": "1.06",
+      "Firepower": "67/100",
+      "Entrying": "26/100",
+      "Trading": "49/100",
+      "Opening": "60/100",
+      "Clutching": "40/100",
+      "Sniping": "0/100",
+      "Utility": "59/100"
+    }
+  },
+  {
+    "playername": "somebody",
+    "age": "31 years",
+    "team": "No team",
+    "stats": {}
+  },
+  {
+    "playername": "Sonic",
+    "age": "27 years",
+    "team": "NRG",
+    "stats": {
+      "Rating 3.0": "1.23",
+      "Firepower": "93/100",
+      "Entrying": "70/100",
+      "Trading": "66/100",
+      "Opening": "92/100",
+      "Clutching": "39/100",
+      "Sniping": "0/100",
+      "Utility": "80/100"
+    }
+  },
+  {
+    "playername": "soulfly",
+    "age": "22 years",
+    "team": "Aurora (benched)",
+    "stats": {
+      "Rating 3.0": "1.05",
+      "Firepower": "42/100",
+      "Entrying": "42/100",
+      "Trading": "28/100",
+      "Opening": "36/100",
+      "Clutching": "60/100",
+      "Sniping": "0/100",
+      "Utility": "22/100"
+    }
+  },
+  {
+    "playername": "sowalio",
+    "age": "22 years",
+    "team": "Nemiga (benched)",
+    "stats": {
+      "Rating 3.0": "1.03",
+      "Firepower": "39/100",
+      "Entrying": "48/100",
+      "Trading": "39/100",
+      "Opening": "67/100",
+      "Clutching": "65/100",
+      "Sniping": "0/100",
+      "Utility": "56/100"
+    }
+  },
+  {
+    "playername": "SPELLAN",
+    "age": "28 years",
+    "team": "Acend",
+    "stats": {
+      "Rating 3.0": "0.89",
+      "Firepower": "18/100",
+      "Entrying": "42/100",
+      "Trading": "9/100",
+      "Opening": "71/100",
+      "Clutching": "33/100",
+      "Sniping": "2/100",
+      "Utility": "85/100"
+    }
+  },
+  {
+    "playername": "Spinx",
+    "age": "25 years",
+    "team": "MOUZ",
+    "stats": {
+      "Rating 3.0": "1.09",
+      "Firepower": "59/100",
+      "Entrying": "59/100",
+      "Trading": "36/100",
+      "Opening": "70/100",
+      "Clutching": "40/100",
+      "Sniping": "0/100",
+      "Utility": "32/100"
+    }
+  },
+  {
+    "playername": "spooke",
+    "age": "25 years",
+    "team": "OG",
+    "stats": {
+      "Rating 3.0": "1.10",
+      "Firepower": "78/100",
+      "Entrying": "45/100",
+      "Trading": "59/100",
+      "Opening": "60/100",
+      "Clutching": "45/100",
+      "Sniping": "2/100",
+      "Utility": "72/100"
+    }
+  },
+  {
+    "playername": "Staehr",
+    "age": "22 years",
+    "team": "Astralis",
+    "stats": {
+      "Rating 3.0": "1.18",
+      "Firepower": "84/100",
+      "Entrying": "66/100",
+      "Trading": "59/100",
+      "Opening": "83/100",
+      "Clutching": "65/100",
+      "Sniping": "0/100",
+      "Utility": "75/100"
+    }
+  },
+  {
+    "playername": "stanislaw",
+    "age": "32 years",
+    "team": "Metizport",
+    "stats": {
+      "Rating 3.0": "0.91",
+      "Firepower": "9/100",
+      "Entrying": "76/100",
+      "Trading": "19/100",
+      "Opening": "15/100",
+      "Clutching": "30/100",
+      "Sniping": "0/100",
+      "Utility": "80/100"
+    }
+  },
+  {
+    "playername": "Starry",
+    "age": "21 years",
+    "team": "Lynn Vision",
+    "stats": {
+      "Rating 3.0": "1.08",
+      "Firepower": "69/100",
+      "Entrying": "45/100",
+      "Trading": "85/100",
+      "Opening": "47/100",
+      "Clutching": "56/100",
+      "Sniping": "3/100",
+      "Utility": "65/100"
+    }
+  },
+  {
+    "playername": "stavn",
+    "age": "24 years",
+    "team": "Ninjas in Pyjamas",
+    "stats": {
+      "Rating 3.0": "1.12",
+      "Firepower": "79/100",
+      "Entrying": "11/100",
+      "Trading": "59/100",
+      "Opening": "55/100",
+      "Clutching": "81/100",
+      "Sniping": "90/100",
+      "Utility": "74/100"
+    }
+  },
+  {
+    "playername": "Stewie2K",
+    "age": "28 years",
+    "team": "No team",
+    "stats": {}
+  },
+  {
+    "playername": "story",
+    "age": "24 years",
+    "team": "SAW",
+    "stats": {
+      "Rating 3.0": "0.98",
+      "Firepower": "45/100",
+      "Entrying": "17/100",
+      "Trading": "24/100",
+      "Opening": "76/100",
+      "Clutching": "55/100",
+      "Sniping": "92/100",
+      "Utility": "65/100"
+    }
+  },
+  {
+    "playername": "stressarN",
+    "age": "23 years",
+    "team": "SINNERS",
+    "stats": {
+      "Rating 3.0": "1.01",
+      "Firepower": "52/100",
+      "Entrying": "24/100",
+      "Trading": "77/100",
+      "Opening": "23/100",
+      "Clutching": "29/100",
+      "Sniping": "0/100",
+      "Utility": "44/100"
+    }
+  },
+  {
+    "playername": "Summer",
+    "age": "29 years",
+    "team": "Rare Atom",
+    "stats": {}
+  },
+  {
+    "playername": "SunPayus",
+    "age": "27 years",
+    "team": "G2 (benched)",
+    "stats": {
+      "Rating 3.0": "1.01",
+      "Firepower": "36/100",
+      "Entrying": "38/100",
+      "Trading": "47/100",
+      "Opening": "57/100",
+      "Clutching": "65/100",
+      "Sniping": "93/100",
+      "Utility": "65/100"
+    }
+  },
+  {
+    "playername": "susp",
+    "age": "21 years",
+    "team": "HEROIC",
+    "stats": {
+      "Rating 3.0": "0.98",
+      "Firepower": "26/100",
+      "Entrying": "73/100",
+      "Trading": "37/100",
+      "Opening": "61/100",
+      "Clutching": "63/100",
+      "Sniping": "0/100",
+      "Utility": "32/100"
+    }
+  },
+  {
+    "playername": "Swisher",
+    "age": "27 years",
+    "team": "M80",
+    "stats": {
+      "Rating 3.0": "1.03",
+      "Firepower": "44/100",
+      "Entrying": "91/100",
+      "Trading": "49/100",
+      "Opening": "62/100",
+      "Clutching": "53/100",
+      "Sniping": "0/100",
+      "Utility": "84/100"
+    }
+  },
+  {
+    "playername": "syrsoN",
+    "age": "30 years",
+    "team": "No team",
+    "stats": {}
+  },
+  {
+    "playername": "tabseN",
+    "age": "31 years",
+    "team": "BIG",
+    "stats": {
+      "Rating 3.0": "1.03",
+      "Firepower": "35/100",
+      "Entrying": "80/100",
+      "Trading": "23/100",
+      "Opening": "52/100",
+      "Clutching": "44/100",
+      "Sniping": "0/100",
+      "Utility": "84/100"
+    }
+  },
+  {
+    "playername": "tAk",
+    "age": "21 years",
+    "team": "G2 Ares",
+    "stats": {
+      "Rating 3.0": "1.15",
+      "Firepower": "88/100",
+      "Entrying": "36/100",
+      "Trading": "85/100",
+      "Opening": "64/100",
+      "Clutching": "41/100",
+      "Sniping": "0/100",
+      "Utility": "46/100"
+    }
+  },
+  {
+    "playername": "Tauson",
+    "age": "21 years",
+    "team": "GamerLegion",
+    "stats": {
+      "Rating 3.0": "1.00",
+      "Firepower": "51/100",
+      "Entrying": "48/100",
+      "Trading": "35/100",
+      "Opening": "33/100",
+      "Clutching": "49/100",
+      "Sniping": "0/100",
+      "Utility": "43/100"
+    }
+  },
+  {
+    "playername": "Techno",
+    "age": "21 years",
+    "team": "The MongolZ",
+    "stats": {
+      "Rating 3.0": "0.89",
+      "Firepower": "11/100",
+      "Entrying": "50/100",
+      "Trading": "25/100",
+      "Opening": "22/100",
+      "Clutching": "30/100",
+      "Sniping": "0/100",
+      "Utility": "58/100"
+    }
+  },
+  {
+    "playername": "tenzy",
+    "age": "21 years",
+    "team": "magic",
+    "stats": {
+      "Rating 3.0": "1.17",
+      "Firepower": "88/100",
+      "Entrying": "83/100",
+      "Trading": "42/100",
+      "Opening": "75/100",
+      "Clutching": "35/100",
+      "Sniping": "0/100",
+      "Utility": "57/100"
+    }
+  },
+  {
+    "playername": "TeSeS",
+    "age": "25 years",
+    "team": "Falcons",
+    "stats": {
+      "Rating 3.0": "1.03",
+      "Firepower": "30/100",
+      "Entrying": "42/100",
+      "Trading": "79/100",
+      "Opening": "20/100",
+      "Clutching": "56/100",
+      "Sniping": "0/100",
+      "Utility": "51/100"
+    }
+  },
+  {
+    "playername": "tikuak",
+    "age": "17 years",
+    "team": "The MongolZ",
+    "stats": {
+      "Rating 3.0": "1.00",
+      "Firepower": "22/100",
+      "Entrying": "74/100",
+      "Trading": "48/100",
+      "Opening": "26/100",
+      "Clutching": "68/100",
+      "Sniping": "1/100",
+      "Utility": "30/100"
+    }
+  },
+  {
+    "playername": "TMB",
+    "age": "24 years",
+    "team": "Phantom",
+    "stats": {
+      "Rating 3.0": "1.03",
+      "Firepower": "46/100",
+      "Entrying": "86/100",
+      "Trading": "14/100",
+      "Opening": "72/100",
+      "Clutching": "58/100",
+      "Sniping": "1/100",
+      "Utility": "84/100"
+    }
+  },
+  {
+    "playername": "tN1R",
+    "age": "25 years",
+    "team": "Spirit",
+    "stats": {
+      "Rating 3.0": "0.99",
+      "Firepower": "34/100",
+      "Entrying": "48/100",
+      "Trading": "30/100",
+      "Opening": "32/100",
+      "Clutching": "29/100",
+      "Sniping": "0/100",
+      "Utility": "54/100"
+    }
+  },
+  {
+    "playername": "tO0RO",
+    "age": "18 years",
+    "team": "Virtus.pro",
+    "stats": {
+      "Rating 3.0": "1.04",
+      "Firepower": "40/100",
+      "Entrying": "43/100",
+      "Trading": "67/100",
+      "Opening": "31/100",
+      "Clutching": "57/100",
+      "Sniping": "0/100",
+      "Utility": "35/100"
+    }
+  },
+  {
+    "playername": "tomaszin",
+    "age": "22 years",
+    "team": "BESTIA",
+    "stats": {
+      "Rating 3.0": "1.13",
+      "Firepower": "85/100",
+      "Entrying": "61/100",
+      "Trading": "58/100",
+      "Opening": "79/100",
+      "Clutching": "60/100",
+      "Sniping": "1/100",
+      "Utility": "56/100"
+    }
+  },
+  {
+    "playername": "Topa",
+    "age": "26 years",
+    "team": "No team",
+    "stats": {}
+  },
+  {
+    "playername": "torzsi",
+    "age": "24 years",
+    "team": "MOUZ",
+    "stats": {
+      "Rating 3.0": "1.16",
+      "Firepower": "72/100",
+      "Entrying": "24/100",
+      "Trading": "50/100",
+      "Opening": "47/100",
+      "Clutching": "78/100",
+      "Sniping": "93/100",
+      "Utility": "62/100"
+    }
+  },
+  {
+    "playername": "TRAVIS",
+    "age": "28 years",
+    "team": "No team",
+    "stats": {
+      "Rating 3.0": "1.05",
+      "Firepower": "46/100",
+      "Entrying": "27/100",
+      "Trading": "47/100",
+      "Opening": "34/100",
+      "Clutching": "39/100",
+      "Sniping": "0/100",
+      "Utility": "63/100"
+    }
+  },
+  {
+    "playername": "try",
+    "age": "21 years",
+    "team": "Legacy",
+    "stats": {
+      "Rating 3.0": "1.17",
+      "Firepower": "78/100",
+      "Entrying": "81/100",
+      "Trading": "58/100",
+      "Opening": "91/100",
+      "Clutching": "76/100",
+      "Sniping": "90/100",
+      "Utility": "54/100"
+    }
+  },
+  {
+    "playername": "twist",
+    "age": "31 years",
+    "team": "Alliance",
+    "stats": {
+      "Rating 3.0": "1.05",
+      "Firepower": "41/100",
+      "Entrying": "64/100",
+      "Trading": "46/100",
+      "Opening": "35/100",
+      "Clutching": "68/100",
+      "Sniping": "1/100",
+      "Utility": "91/100"
+    }
+  },
+  {
+    "playername": "Twistzz",
+    "age": "26 years",
+    "team": "FaZe",
+    "stats": {
+      "Rating 3.0": "1.20",
+      "Firepower": "73/100",
+      "Entrying": "58/100",
+      "Trading": "49/100",
+      "Opening": "64/100",
+      "Clutching": "44/100",
+      "Sniping": "1/100",
+      "Utility": "73/100"
+    }
+  },
+  {
+    "playername": "upE",
+    "age": "22 years",
+    "team": "Alliance",
+    "stats": {
+      "Rating 3.0": "1.02",
+      "Firepower": "27/100",
+      "Entrying": "65/100",
+      "Trading": "21/100",
+      "Opening": "33/100",
+      "Clutching": "55/100",
+      "Sniping": "0/100",
+      "Utility": "62/100"
+    }
+  },
+  {
+    "playername": "venomzera",
+    "age": "22 years",
+    "team": "MIBR",
+    "stats": {
+      "Rating 3.0": "1.10",
+      "Firepower": "60/100",
+      "Entrying": "96/100",
+      "Trading": "64/100",
+      "Opening": "57/100",
+      "Clutching": "76/100",
+      "Sniping": "0/100",
+      "Utility": "24/100"
+    }
+  },
+  {
+    "playername": "Vexite",
+    "age": "21 years",
+    "team": "FlyQuest",
+    "stats": {
+      "Rating 3.0": "1.32",
+      "Firepower": "98/100",
+      "Entrying": "59/100",
+      "Trading": "36/100",
+      "Opening": "80/100",
+      "Clutching": "67/100",
+      "Sniping": "0/100",
+      "Utility": "72/100"
+    }
+  },
+  {
+    "playername": "VINI",
+    "age": "27 years",
+    "team": "Imperial",
+    "stats": {
+      "Rating 3.0": "1.07",
+      "Firepower": "49/100",
+      "Entrying": "65/100",
+      "Trading": "45/100",
+      "Opening": "45/100",
+      "Clutching": "41/100",
+      "Sniping": "1/100",
+      "Utility": "93/100"
+    }
+  },
+  {
+    "playername": "volt",
+    "age": "24 years",
+    "team": "INFINITE",
+    "stats": {
+      "Rating 3.0": "0.97",
+      "Firepower": "20/100",
+      "Entrying": "94/100",
+      "Trading": "55/100",
+      "Opening": "31/100",
+      "Clutching": "57/100",
+      "Sniping": "0/100",
+      "Utility": "38/100"
+    }
+  },
+  {
+    "playername": "vsm",
+    "age": "27 years",
+    "team": "paiN",
+    "stats": {
+      "Rating 3.0": "1.05",
+      "Firepower": "56/100",
+      "Entrying": "45/100",
+      "Trading": "19/100",
+      "Opening": "49/100",
+      "Clutching": "37/100",
+      "Sniping": "0/100",
+      "Utility": "50/100"
+    }
+  },
+  {
+    "playername": "w0nderful",
+    "age": "21 years",
+    "team": "Natus Vincere",
+    "stats": {
+      "Rating 3.0": "1.04",
+      "Firepower": "59/100",
+      "Entrying": "64/100",
+      "Trading": "89/100",
+      "Opening": "77/100",
+      "Clutching": "95/100",
+      "Sniping": "93/100",
+      "Utility": "56/100"
+    }
+  },
+  {
+    "playername": "Westmelon",
+    "age": "25 years",
+    "team": "Lynn Vision",
+    "stats": {
+      "Rating 3.0": "0.96",
+      "Firepower": "37/100",
+      "Entrying": "81/100",
+      "Trading": "39/100",
+      "Opening": "57/100",
+      "Clutching": "27/100",
+      "Sniping": "0/100",
+      "Utility": "78/100"
+    }
+  },
+  {
+    "playername": "Wicadia",
+    "age": "21 years",
+    "team": "Aurora",
+    "stats": {
+      "Rating 3.0": "1.14",
+      "Firepower": "83/100",
+      "Entrying": "54/100",
+      "Trading": "36/100",
+      "Opening": "54/100",
+      "Clutching": "46/100",
+      "Sniping": "1/100",
+      "Utility": "25/100"
+    }
+  },
+  {
+    "playername": "WOOD7",
+    "age": "31 years",
+    "team": "No team",
+    "stats": {}
+  },
+  {
+    "playername": "woxic",
+    "age": "27 years",
+    "team": "Aurora",
+    "stats": {
+      "Rating 3.0": "1.09",
+      "Firepower": "63/100",
+      "Entrying": "45/100",
+      "Trading": "43/100",
+      "Opening": "69/100",
+      "Clutching": "71/100",
+      "Sniping": "94/100",
+      "Utility": "51/100"
+    }
+  },
+  {
+    "playername": "Xant3r",
+    "age": "22 years",
+    "team": "Nemiga",
+    "stats": {
+      "Rating 3.0": "1.07",
+      "Firepower": "47/100",
+      "Entrying": "62/100",
+      "Trading": "67/100",
+      "Opening": "31/100",
+      "Clutching": "69/100",
+      "Sniping": "0/100",
+      "Utility": "76/100"
+    }
+  },
+  {
+    "playername": "XANTARES",
+    "age": "31 years",
+    "team": "Aurora",
+    "stats": {
+      "Rating 3.0": "1.13",
+      "Firepower": "89/100",
+      "Entrying": "42/100",
+      "Trading": "43/100",
+      "Opening": "93/100",
+      "Clutching": "27/100",
+      "Sniping": "0/100",
+      "Utility": "50/100"
+    }
+  },
+  {
+    "playername": "xertioN",
+    "age": "22 years",
+    "team": "MOUZ",
+    "stats": {
+      "Rating 3.0": "1.14",
+      "Firepower": "79/100",
+      "Entrying": "65/100",
+      "Trading": "33/100",
+      "Opening": "81/100",
+      "Clutching": "45/100",
+      "Sniping": "0/100",
+      "Utility": "87/100"
+    }
+  },
+  {
+    "playername": "xfl0ud",
+    "age": "23 years",
+    "team": "FUT",
+    "stats": {
+      "Rating 3.0": "1.11",
+      "Firepower": "67/100",
+      "Entrying": "73/100",
+      "Trading": "62/100",
+      "Opening": "69/100",
+      "Clutching": "34/100",
+      "Sniping": "0/100",
+      "Utility": "55/100"
+    }
+  },
+  {
+    "playername": "xiELO",
+    "age": "20 years",
+    "team": "PARIVISION",
+    "stats": {
+      "Rating 3.0": "0.97",
+      "Firepower": "38/100",
+      "Entrying": "70/100",
+      "Trading": "39/100",
+      "Opening": "48/100",
+      "Clutching": "49/100",
+      "Sniping": "1/100",
+      "Utility": "36/100"
+    }
+  },
+  {
+    "playername": "xKacpersky",
+    "age": "19 years",
+    "team": "Ninjas in Pyjamas",
+    "stats": {
+      "Rating 3.0": "1.09",
+      "Firepower": "79/100",
+      "Entrying": "52/100",
+      "Trading": "42/100",
+      "Opening": "75/100",
+      "Clutching": "40/100",
+      "Sniping": "0/100",
+      "Utility": "42/100"
+    }
+  },
+  {
+    "playername": "YEKINDAR",
+    "age": "26 years",
+    "team": "FURIA",
+    "stats": {
+      "Rating 3.0": "1.13",
+      "Firepower": "71/100",
+      "Entrying": "83/100",
+      "Trading": "6/100",
+      "Opening": "92/100",
+      "Clutching": "37/100",
+      "Sniping": "1/100",
+      "Utility": "88/100"
+    }
+  },
+  {
+    "playername": "youka",
+    "age": "22 years",
+    "team": "RUSTEC (benched)",
+    "stats": {
+      "Rating 3.0": "1.15",
+      "Firepower": "76/100",
+      "Entrying": "17/100",
+      "Trading": "29/100",
+      "Opening": "77/100",
+      "Clutching": "66/100",
+      "Sniping": "95/100",
+      "Utility": "60/100"
+    }
+  },
+  {
+    "playername": "yuurih",
+    "age": "26 years",
+    "team": "FURIA",
+    "stats": {
+      "Rating 3.0": "1.13",
+      "Firepower": "51/100",
+      "Entrying": "28/100",
+      "Trading": "48/100",
+      "Opening": "12/100",
+      "Clutching": "95/100",
+      "Sniping": "0/100",
+      "Utility": "49/100"
+    }
+  },
+  {
+    "playername": "yxngstxr",
+    "age": "21 years",
+    "team": "HEROIC (benched)",
+    "stats": {
+      "Rating 3.0": "1.15",
+      "Firepower": "91/100",
+      "Entrying": "42/100",
+      "Trading": "89/100",
+      "Opening": "34/100",
+      "Clutching": "61/100",
+      "Sniping": "13/100",
+      "Utility": "53/100"
+    }
+  },
+  {
+    "playername": "Zero",
+    "age": "20 years",
+    "team": "TYLOO",
+    "stats": {
+      "Rating 3.0": "1.07",
+      "Firepower": "51/100",
+      "Entrying": "61/100",
+      "Trading": "65/100",
+      "Opening": "39/100",
+      "Clutching": "40/100",
+      "Sniping": "0/100",
+      "Utility": "27/100"
+    }
+  },
+  {
+    "playername": "zont1x",
+    "age": "21 years",
+    "team": "Spirit",
+    "stats": {
+      "Rating 3.0": "0.98",
+      "Firepower": "26/100",
+      "Entrying": "53/100",
+      "Trading": "31/100",
+      "Opening": "22/100",
+      "Clutching": "34/100",
+      "Sniping": "0/100",
+      "Utility": "65/100"
+    }
+  },
+  {
+    "playername": "zorte",
+    "age": "28 years",
+    "team": "BetBoom",
+    "stats": {
+      "Rating 3.0": "0.97",
+      "Firepower": "29/100",
+      "Entrying": "17/100",
+      "Trading": "70/100",
+      "Opening": "54/100",
+      "Clutching": "80/100",
+      "Sniping": "91/100",
+      "Utility": "64/100"
+    }
+  },
+  {
+    "playername": "ztr",
+    "age": "23 years",
+    "team": "FOKUS (loan)",
+    "stats": {
+      "Rating 3.0": "0.96",
+      "Firepower": "31/100",
+      "Entrying": "61/100",
+      "Trading": "50/100",
+      "Opening": "24/100",
+      "Clutching": "34/100",
+      "Sniping": "0/100",
+      "Utility": "87/100"
+    }
+  },
+  {
+    "playername": "zweih",
+    "age": "18 years",
+    "team": "PARIVISION",
+    "stats": {
+      "Rating 3.0": "1.05",
+      "Firepower": "38/100",
+      "Entrying": "38/100",
+      "Trading": "38/100",
+      "Opening": "43/100",
+      "Clutching": "74/100",
+      "Sniping": "5/100",
+      "Utility": "50/100"
+    }
+  },
+  {
+    "playername": "ZywOo",
+    "age": "25 years",
+    "team": "Vitality",
+    "stats": {
+      "Rating 3.0": "1.39",
+      "Firepower": "98/100",
+      "Entrying": "42/100",
+      "Trading": "58/100",
+      "Opening": "68/100",
+      "Clutching": "87/100",
+      "Sniping": "87/100",
+      "Utility": "62/100"
+    }
+  }
+]
