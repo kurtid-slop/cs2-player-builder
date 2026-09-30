@@ -325,6 +325,15 @@
 
   .btn:disabled { opacity: 0.4; }
 
+  .sr-only {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    overflow: hidden;
+    clip: rect(0 0 0 0);
+    white-space: nowrap;
+  }
+
   .btn-quiet {
     margin-left: auto;
     background: transparent;
@@ -539,6 +548,80 @@
 
   .result .controls { justify-content: center; }
 
+  /* ---------- leaderboard ---------- */
+
+  .board { margin-top: 20px; }
+
+  .board-list {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: grid;
+    gap: 4px;
+  }
+
+  .board-row {
+    display: grid;
+    grid-template-columns: 2.2em minmax(0, 1fr) 2em 3.4em;
+    align-items: baseline;
+    gap: 10px;
+    padding: 8px 10px;
+    border-radius: 6px;
+    background: var(--panel-2);
+    font-variant-numeric: tabular-nums;
+  }
+
+  .board-row.mine {
+    outline: 1px solid var(--accent);
+    background: rgba(245, 165, 36, 0.08);
+  }
+
+  .board-rank { color: var(--muted); font-family: var(--mono); }
+
+  .board-name {
+    font-weight: 600;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+  }
+
+  .board-grade { font-weight: 800; text-align: center; }
+
+  .board-score { font-family: var(--mono); text-align: right; }
+
+  .board-empty,
+  .board-status {
+    margin: 8px 0 0;
+    color: var(--muted);
+    font-size: 0.85rem;
+  }
+
+  .board-status.error { color: var(--danger); }
+
+  .submit {
+    display: flex;
+    gap: 8px;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin: 0 0 16px;
+  }
+
+  .submit input {
+    flex: 1 1 180px;
+    max-width: 260px;
+    padding: 10px 12px;
+    border-radius: 8px;
+    border: 1px solid var(--line);
+    background: var(--panel-2);
+    color: var(--text);
+    font: inherit;
+  }
+
+  .submit input:focus-visible {
+    outline: 2px solid var(--accent);
+    outline-offset: 1px;
+  }
+
   footer {
     margin-top: 28px;
     color: var(--muted);
@@ -605,10 +688,23 @@
         <div class="grade" id="grade"></div>
         <div class="result-overall" id="result-overall"></div>
         <div class="result-lines" id="result-lines"></div>
+        <form class="submit" id="submit" hidden>
+          <label class="sr-only" for="player-name">Your name</label>
+          <input id="player-name" name="player-name" maxlength="20" autocomplete="nickname"
+                 placeholder="Your name" required>
+          <button class="btn btn-primary" id="submit-btn" type="submit">Submit score</button>
+        </form>
+        <p class="board-status" id="submit-status" hidden></p>
         <div class="controls">
           <button class="btn btn-primary" id="again">Play again</button>
           <button class="btn" id="copy">Copy result</button>
         </div>
+      </section>
+
+      <section class="panel board" id="board" hidden aria-labelledby="board-title">
+        <h2 id="board-title">Leaderboard</h2>
+        <ol class="board-list" id="board-list"></ol>
+        <p class="board-empty" id="board-empty" hidden></p>
       </section>
     </div>
 
@@ -618,6 +714,7 @@
 </div>
 
 <script src="players.js"></script>
+<script src="leaderboard-config.js"></script>
 <script>
 (function () {
 
@@ -768,6 +865,7 @@
       respins: RESPINS,
       phase: "spin",        // spin | spinning | pick | done
       justLanded: false,
+      submitted: false,
       bestBefore: readBest()
     };
     render();
@@ -1070,6 +1168,15 @@
     }));
   }
 
+  // Cutoffs from simulated games where each round takes the
+  // highest value on offer: median 85.5, top 5% above 91
+  function buildGrade(overall) {
+    return overall >= 91 ? "S" :
+      overall >= 88.5 ? "A" :
+      overall >= 85.5 ? "B" :
+      overall >= 82 ? "C" : "D";
+  }
+
   function renderResult() {
 
     const done = state.phase === "done";
@@ -1079,13 +1186,7 @@
     const overall = buildOverall();
     const rounded = Math.round(overall);
 
-    // Cutoffs from simulated games where each round takes the
-    // highest value on offer: median 85.5, top 5% above 91
-    const grade =
-      overall >= 91 ? "S" :
-      overall >= 88.5 ? "A" :
-      overall >= 85.5 ? "B" :
-      overall >= 82 ? "C" : "D";
+    const grade = buildGrade(overall);
 
     const beaten = ALL_PLAYERS.filter(p => playerOverall(p) < overall).length;
     const percent = Math.round(100 * beaten / ALL_PLAYERS.length);
@@ -1129,6 +1230,156 @@
           : ["Personal best: ", h("b", {}, String(best))]
       )
     );
+
+    renderSubmit();
+  }
+
+
+  // ==========================================================
+  // LEADERBOARD
+  // ==========================================================
+  //
+  // Scores are stored in Supabase through its REST API. The
+  // connection settings live in leaderboard-config.js; without
+  // them the leaderboard stays hidden.
+
+  const LB = window.LEADERBOARD || {};
+  const LB_ON = Boolean(LB.url && LB.key);
+  const LB_SIZE = 10;
+  const NAME_KEY = "cs2-player-builder-name";
+
+  let myScoreId = null;
+
+  async function lbFetch(path, options = {}) {
+    const headers = { apikey: LB.key, "Content-Type": "application/json" };
+    // Legacy anon keys are JWTs and also go in Authorization
+    if (LB.key.startsWith("eyJ")) headers.Authorization = `Bearer ${LB.key}`;
+
+    const response = await fetch(`${LB.url.replace(/\/$/, "")}/rest/v1/${path}`, {
+      ...options,
+      headers: { ...headers, ...(options.headers || {}) }
+    });
+
+    if (!response.ok) {
+      throw new Error(`${response.status} ${await response.text()}`);
+    }
+    return response;
+  }
+
+  // Number of rows matching a filter, from the Content-Range header
+  async function lbCount(filter) {
+    const response = await lbFetch(`scores?select=id${filter}`, {
+      method: "HEAD",
+      headers: { Prefer: "count=exact" }
+    });
+    const range = response.headers.get("content-range") || "*/0";
+    return Number(range.split("/")[1]) || 0;
+  }
+
+  async function loadBoard() {
+    if (!LB_ON) return;
+
+    $("board").hidden = false;
+
+    try {
+      const response = await lbFetch(
+        `scores?select=id,name,score,grade&order=score.desc,created_at.asc&limit=${LB_SIZE}`
+      );
+      renderBoard(await response.json());
+    } catch (e) {
+      renderBoard([], "Couldn't load the leaderboard. Check your connection and refresh.");
+    }
+  }
+
+  function renderBoard(rows, message) {
+    $("board-list").replaceChildren(...rows.map((row, i) =>
+      h("li", { class: "board-row" + (row.id === myScoreId ? " mine" : "") },
+        h("span", { class: "board-rank" }, `#${i + 1}`),
+        h("span", { class: "board-name", title: row.name }, row.name),
+        h("span", { class: "board-grade t-" + tier(Number(row.score)) }, row.grade),
+        h("span", { class: "board-score" }, Number(row.score).toFixed(1))
+      )
+    ));
+
+    const empty = message || (rows.length ? "" : "No scores yet. Finish a game to set the first one.");
+    $("board-empty").textContent = empty;
+    $("board-empty").hidden = !empty;
+  }
+
+  function readName() {
+    try { return localStorage.getItem(NAME_KEY) || ""; }
+    catch (e) { return ""; }
+  }
+
+  function saveName(name) {
+    try { localStorage.setItem(NAME_KEY, name); }
+    catch (e) { /* storage unavailable */ }
+  }
+
+  function setSubmitStatus(text, isError) {
+    $("submit-status").textContent = text;
+    $("submit-status").classList.toggle("error", Boolean(isError));
+    $("submit-status").hidden = !text;
+  }
+
+  function renderSubmit() {
+    if (!LB_ON) return;
+
+    $("submit").hidden = state.submitted;
+    if (!state.submitted) {
+      if (!$("player-name").value) $("player-name").value = readName();
+      $("submit-btn").disabled = false;
+      $("submit-btn").textContent = "Submit score";
+      setSubmitStatus("");
+    }
+  }
+
+  async function submitScore(event) {
+    event.preventDefault();
+    if (!LB_ON || state.phase !== "done" || state.submitted) return;
+
+    const name = $("player-name").value.trim().slice(0, 20);
+    if (!name) {
+      setSubmitStatus("Enter a name to submit your score.", true);
+      return;
+    }
+
+    const overall = Math.round(buildOverall() * 10) / 10;
+
+    const build = {};
+    for (const attr of ATTRS) {
+      const t = state.taken[attr];
+      build[attr] = { player: t.player, team: t.team, value: t.value };
+    }
+
+    $("submit-btn").disabled = true;
+    $("submit-btn").textContent = "Submitting…";
+
+    try {
+      const response = await lbFetch("scores", {
+        method: "POST",
+        headers: { Prefer: "return=representation" },
+        body: JSON.stringify({ name, score: overall, grade: buildGrade(overall), build })
+      });
+
+      const [row] = await response.json();
+      myScoreId = row.id;
+      state.submitted = true;
+      saveName(name);
+
+      const [higher, total] = await Promise.all([
+        lbCount(`&score=gt.${overall}`),
+        lbCount("")
+      ]);
+
+      $("submit").hidden = true;
+      setSubmitStatus(`Saved. You placed #${higher + 1} of ${total}.`);
+      loadBoard();
+    } catch (e) {
+      $("submit-btn").disabled = false;
+      $("submit-btn").textContent = "Submit score";
+      setSubmitStatus("Couldn't save your score. Try again.", true);
+    }
   }
 
 
@@ -1203,6 +1454,7 @@
   $("sound").addEventListener("click", toggleSound);
   renderSoundButton();
   $("copy").addEventListener("click", copyResult);
+  $("submit").addEventListener("submit", submitScore);
 
   $("footer").hidden = !DEBUG;
   $("available").hidden = !DEBUG;
@@ -1213,6 +1465,7 @@
     `Sniping is ranked among AWPers only; riflers have none. Data from ${DATA.generated}.`;
 
   newGame();
+  loadBoard();
 
 })();
 </script>
