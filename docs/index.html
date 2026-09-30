@@ -954,7 +954,7 @@
       }
       const bits = [`${state.team.players.length} players`];
       if (DEBUG) {
-        bits.push(`cluster ${state.team.cluster}`);
+        bits.push(state.team.cluster == null ? "no cluster" : `cluster ${state.team.cluster}`);
         bits.push(`schedule ×${state.team.multiplier.toFixed(2)}`);
       }
       $("team-meta").textContent = bits.join(" · ");
@@ -1054,12 +1054,12 @@
     const rounded = Math.round(overall);
 
     // Cutoffs from simulated games where each round takes the
-    // highest value on offer: median 86, top 5% above 92
+    // highest value on offer: median 85.5, top 5% above 91
     const grade =
-      overall >= 92 ? "S" :
-      overall >= 89 ? "A" :
-      overall >= 86 ? "B" :
-      overall >= 81 ? "C" : "D";
+      overall >= 91 ? "S" :
+      overall >= 88.5 ? "A" :
+      overall >= 85.5 ? "B" :
+      overall >= 82 ? "C" : "D";
 
     const beaten = ALL_PLAYERS.filter(p => playerOverall(p) < overall).length;
     const percent = Math.round(100 * beaten / ALL_PLAYERS.length);

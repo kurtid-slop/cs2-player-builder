@@ -33,8 +33,11 @@ ATTRIBUTES = [
 # so there is a real choice of player
 MIN_PLAYERS_PER_TEAM = 3
 
-# Only teams from the strongest clusters can be rolled
-MAX_CLUSTER = 4
+# How many teams can be rolled. Teams are taken strongest
+# cluster first, then by Elo strength within a cluster, so
+# the last cluster included may only be partly used. Teams
+# without a cluster come after all clustered teams.
+MAX_TEAMS = 50
 
 # Adjusted attributes can go past 100, so they are capped
 ATTRIBUTE_CEILING = 100
@@ -50,6 +53,10 @@ AWPER_THRESHOLD = 40
 SNIPING_S_TIER_SIZE = 5
 SNIPING_S_TIER_INCLUDE = ["s1mple", "device"]
 
+# The lowest Sniping an AWPer can get. The rest of the AWPers
+# are spread by rank between this and 94. Riflers stay at 0.
+SNIPING_AWPER_FLOOR = 50
+
 
 # ============================================================
 # LOAD PLAYERS
@@ -64,15 +71,32 @@ players["cluster"] = players["team"].map(cluster_lookup)
 
 players = players[
     (players["status"] == "active") &
-    (players["cluster"] <= MAX_CLUSTER)
+    players["team"].notna()
 ].dropna(subset=[f"{a} adjusted" for a in ATTRIBUTES])
 
-team_sizes = players.groupby("team").size()
-players = players[
-    players["team"].isin(
-        team_sizes[team_sizes >= MIN_PLAYERS_PER_TEAM].index
+team_order = (
+    players
+    .groupby("team")
+    .agg(
+        active_players=("playername", "size"),
+        cluster=("cluster", "first"),
+        strength=("team_strength", "first")
     )
-]
+    .query("active_players >= @MIN_PLAYERS_PER_TEAM")
+    .sort_values(
+        ["cluster", "strength"],
+        ascending=[True, False],
+        na_position="last"
+    )
+)
+
+selected_teams = team_order.head(MAX_TEAMS)
+
+if len(selected_teams) < MAX_TEAMS:
+    print(f"WARNING: only {len(selected_teams)} teams have "
+          f"{MIN_PLAYERS_PER_TEAM}+ active players")
+
+players = players[players["team"].isin(selected_teams.index)]
 
 
 # ============================================================
@@ -85,7 +109,7 @@ players = players[
 #
 #   S tier    the included players plus the top-ranked AWPers,
 #             spread from 100 down to 95
-#   the rest  spread by rank from just under 95 down to 0
+#   the rest  spread by rank from 94 down to SNIPING_AWPER_FLOOR
 #
 # Riflers get 0.
 
@@ -122,7 +146,7 @@ s_tier = (
 rest = order[SNIPING_S_TIER_SIZE:]
 
 players.loc[s_tier, "Sniping adjusted"] = np.linspace(100, 95, len(s_tier))
-players.loc[rest, "Sniping adjusted"] = np.linspace(94, 0, len(rest))
+players.loc[rest, "Sniping adjusted"] = np.linspace(94, SNIPING_AWPER_FLOOR, len(rest))
 
 players.loc[~awpers, "Sniping adjusted"] = 0
 
@@ -135,9 +159,11 @@ teams = []
 
 for team_name, group in players.groupby("team"):
 
+    cluster = group["cluster"].iloc[0]
+
     teams.append({
         "name": team_name,
-        "cluster": int(group["cluster"].iloc[0]),
+        "cluster": None if pd.isna(cluster) else int(cluster),
         "multiplier": round(float(group["multiplier"].iloc[0]), 3),
         "players": [
             {
