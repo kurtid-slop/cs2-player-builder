@@ -523,6 +523,20 @@
 
   .result-lines b { color: var(--text); }
 
+  .player-link {
+    color: var(--accent);
+    font-weight: 700;
+    text-decoration: underline;
+    text-underline-offset: 3px;
+  }
+
+  .player-link:hover { filter: brightness(1.15); }
+
+  .player-link::after {
+    content: " ↗";
+    font-size: 0.8em;
+  }
+
   .result .controls { justify-content: center; }
 
   footer {
@@ -677,6 +691,18 @@
 
   function letter(value) {
     return LETTERS.find(([min]) => value >= min)[1];
+  }
+
+  // YouTube search for a player's highlights. Some names are
+  // searched under a different spelling.
+  const SEARCH_NAMES = {
+    "w0nderful": "wonderful"
+  };
+
+  function highlightsUrl(name) {
+    const query = `${SEARCH_NAMES[name] || name} cs2 highlights`;
+    return "https://www.youtube.com/results?" +
+      new URLSearchParams({ search_query: query });
   }
 
   function average(values) {
@@ -1086,7 +1112,17 @@
 
     $("result-lines").replaceChildren(
       h("p", {}, "Better than ", h("b", {}, `${percent}%`), " of real players."),
-      h("p", {}, "Plays most like ", h("b", {}, closest.name), ` (${closest.team}).`),
+      h("p", {},
+        "Plays most like ",
+        h("a", {
+          class: "player-link",
+          href: highlightsUrl(closest.name),
+          target: "_blank",
+          rel: "noopener",
+          title: `Watch ${closest.name} highlights on YouTube`
+        }, closest.name),
+        ` (${closest.team}).`
+      ),
       h("p", {},
         newBest
           ? h("b", {}, "New personal best!")
