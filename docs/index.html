@@ -1276,10 +1276,15 @@
     return Number(range.split("/")[1]) || 0;
   }
 
+  let boardLoading = false;
+  let boardLoadedAt = 0;
+
   async function loadBoard() {
-    if (!LB_ON) return;
+    if (!LB_ON || boardLoading) return;
 
     $("board").hidden = false;
+    boardLoading = true;
+    boardLoadedAt = Date.now();
 
     try {
       const response = await lbFetch(
@@ -1288,7 +1293,30 @@
       renderBoard(await response.json());
     } catch (e) {
       renderBoard([], "Couldn't load the leaderboard. Check your connection and refresh.");
+    } finally {
+      boardLoading = false;
     }
+  }
+
+  // Refresh every 30 seconds while the tab is visible. When the
+  // tab comes back into view after a while, refresh straight away.
+  const BOARD_REFRESH_MS = 30000;
+
+  function startBoardRefresh() {
+    if (!LB_ON) return;
+
+    setInterval(() => {
+      if (document.visibilityState === "visible") loadBoard();
+    }, BOARD_REFRESH_MS);
+
+    document.addEventListener("visibilitychange", () => {
+      if (
+        document.visibilityState === "visible" &&
+        Date.now() - boardLoadedAt >= BOARD_REFRESH_MS
+      ) {
+        loadBoard();
+      }
+    });
   }
 
   function renderBoard(rows, message) {
@@ -1466,6 +1494,7 @@
 
   newGame();
   loadBoard();
+  startBoardRefresh();
 
 })();
 </script>
