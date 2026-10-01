@@ -726,9 +726,47 @@
   const ATTRS = DATA.attributes;
   const ROUNDS = ATTRS.length;
   const RESPINS = 1;
-  const SPIN_MS = 6000;    // how long the reel spins (matches the spin sound)
-  const REEL_LENGTH = 30;  // different teams shown on the reel during a spin
   const REEL_AFTER = 3;    // teams left below the rolled one when it stops
+
+  // Reel timing from sounds/spin.json: the reel starts at the
+  // flick and each tick in the sound moves the next team onto
+  // the centre line, so the rolled team lands on the last tick.
+  // Used until spin.json loads, or if it can't be loaded.
+  let SPIN_TIMING = fallbackTiming(30, 0.3, 5.5);
+
+  function fallbackTiming(ticks, flick, end) {
+    const times = [];
+    for (let k = 1; k <= ticks; k++) {
+      // Ease out: ticks spread further apart as the reel slows
+      times.push(flick + (end - flick) * (1 - Math.sqrt(1 - k / ticks)));
+    }
+    return { flick, ticks: times };
+  }
+
+  fetch("sounds/spin.json")
+    .then(response => response.json())
+    .then(data => {
+      if (Array.isArray(data.tick_times_s) && data.tick_times_s.length) {
+        SPIN_TIMING = { flick: data.flick_strike_s || 0, ticks: data.tick_times_s };
+      }
+    })
+    .catch(() => { /* keep the fallback timing */ });
+
+  // How many teams have crossed the centre line t seconds after
+  // the sound starts: still until the flick, then one team per
+  // tick, moving at a steady speed between ticks.
+  function reelPosition(t, timing) {
+    const points = [[0, 0], [timing.flick, 0], ...timing.ticks.map((tick, i) => [tick, i + 1])];
+    if (t >= points[points.length - 1][0]) return timing.ticks.length;
+    for (let i = 1; i < points.length; i++) {
+      const [t1, p1] = points[i];
+      if (t < t1) {
+        const [t0, p0] = points[i - 1];
+        return t1 === t0 ? p1 : p0 + (p1 - p0) * (t - t0) / (t1 - t0);
+      }
+    }
+    return timing.ticks.length;
+  }
   const BEST_KEY = "cs2-player-builder-best";
   const SOUND_KEY = "cs2-player-builder-sound";
 
@@ -835,10 +873,12 @@
     renderSoundButton();
   }
 
+  // Returns true when the sound was started
   function playSpinSound() {
-    if (!soundOn) return;
+    if (!soundOn) return false;
     spinSound.currentTime = 0;
     spinSound.play().catch(() => { /* blocked or unavailable */ });
+    return true;
   }
 
   function stopSpinSound() {
@@ -904,11 +944,13 @@
 
     let landed = false;
     const game = state;
+    let placeReel = () => {};
 
     const land = () => {
       // Ignore a spin that finishes after the game was restarted
       if (landed || state !== game) return;
       landed = true;
+      placeReel(Infinity);
       // Leave the stopped reel in place, teams above and below
       $("reel-strip").dataset.landed = team.name;
       state.team = team;
@@ -919,37 +961,60 @@
 
     if (reduceMotion) return land();
 
-    playSpinSound();
+    const timing = SPIN_TIMING;
+    const stopAt = timing.ticks.length;
+    const end = timing.ticks[stopAt - 1];
 
-    // Fill the reel with different teams in a random order: the
-    // rolled team is the 30th, with a few more after it so the
-    // reel keeps going past the centre line. Then scroll it so
-    // the rolled team stops on the centre line.
-    const others = shuffle(
-      DATA.teams.map(t => t.name).filter(name => name !== team.name)
-    );
-    const before = others.slice(0, REEL_LENGTH - 1);
-    const after = others.slice(REEL_LENGTH - 1, REEL_LENGTH - 1 + REEL_AFTER);
+    // Fill the reel with teams in a random order so the rolled
+    // team lands on the last tick, with a few more after it.
+    // Teams only repeat if there are more ticks than teams.
+    const others = DATA.teams.map(t => t.name).filter(name => name !== team.name);
+    let pool = [];
+    while (pool.length < stopAt - 1 + REEL_AFTER) pool = pool.concat(shuffle(others));
+    const before = pool.slice(0, stopAt - 1);
+    const after = pool.slice(stopAt - 1, stopAt - 1 + REEL_AFTER);
 
     const names = [$("reel-strip").textContent || "?", ...before, team.name, ...after];
-    const stopAt = before.length + 1;
 
     const strip = $("reel-strip");
     strip.replaceChildren(...names.map(name => h("div", { class: "reel-item" }, name)));
+    strip.style.transition = "none";
 
     const item = strip.firstChild.offsetHeight;
     const centre = ($("reel").clientHeight - item) / 2;
-    const target = centre - stopAt * item;
 
-    strip.style.transition = "none";
-    strip.style.transform = `translateY(${centre}px)`;
-    strip.offsetHeight; // apply the start position before animating
+    placeReel = t => {
+      strip.style.transform =
+        `translateY(${centre - reelPosition(t, timing) * item}px)`;
+    };
+    placeReel(0);
 
-    strip.style.transition = `transform ${SPIN_MS}ms cubic-bezier(0.15, 0.85, 0.25, 1.04)`;
-    strip.style.transform = `translateY(${target}px)`;
+    // The reel clock starts when the sound actually starts
+    // playing, so the ticks line up even if audio is slow to begin
+    let startedAt = null;
 
-    strip.addEventListener("transitionend", land, { once: true });
-    setTimeout(land, SPIN_MS + 300); // in case transitionend never fires
+    const frame = now => {
+      if (landed || state !== game) return;
+      const t = (now - startedAt) / 1000;
+      if (t >= end) return land();
+      placeReel(t);
+      requestAnimationFrame(frame);
+    };
+
+    const startClock = () => {
+      if (startedAt != null || state !== game) return;
+      startedAt = performance.now();
+      requestAnimationFrame(frame);
+      // Lands even if animation frames stop (e.g. a hidden tab)
+      setTimeout(land, end * 1000 + 500);
+    };
+
+    if (playSpinSound()) {
+      spinSound.addEventListener("playing", startClock, { once: true });
+      setTimeout(startClock, 400); // the sound may be blocked
+    } else {
+      startClock();
+    }
   }
 
   function shuffle(items) {
@@ -1324,7 +1389,9 @@
       h("li", { class: "board-row" + (row.id === myScoreId ? " mine" : "") },
         h("span", { class: "board-rank" }, `#${i + 1}`),
         h("span", { class: "board-name", title: row.name }, row.name),
-        h("span", { class: "board-grade t-" + tier(Number(row.score)) }, row.grade),
+        // Purple-tier scores (95+) show as SS on the leaderboard only
+        h("span", { class: "board-grade t-" + tier(Number(row.score)) },
+          tier(Number(row.score)) === "s" ? "SS" : row.grade),
         h("span", { class: "board-score" }, Number(row.score).toFixed(1))
       )
     ));
