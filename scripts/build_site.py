@@ -42,6 +42,16 @@ MAX_TEAMS = 50
 # Adjusted attributes can go past 100, so they are capped
 ATTRIBUTE_CEILING = 100
 
+# Every attribute gets at least this many S grades (95+), so
+# each one is as easy to max out as Firepower. Attributes with
+# fewer have their top end stretched (see STRETCH S TIER).
+S_TIER_TARGET = 8
+S_TIER_MIN = 95
+
+# The stretch only moves values at or above this (the start of
+# the A grade), so lower grades don't change
+S_STRETCH_FLOOR = 80
+
 # Sniping splits into two groups: AWPers (~85-100) and
 # riflers (~0). Players at or above this raw Sniping value
 # count as AWPers.
@@ -50,7 +60,7 @@ AWPER_THRESHOLD = 40
 # How many AWPers get an S (95+) in Sniping. The players
 # listed are always included (a manual choice, not from the
 # data); the rest of the S tier is the top-ranked AWPers.
-SNIPING_S_TIER_SIZE = 5
+SNIPING_S_TIER_SIZE = S_TIER_TARGET
 SNIPING_S_TIER_INCLUDE = ["s1mple", "device"]
 
 # The lowest Sniping an AWPer can get. The rest of the AWPers
@@ -152,6 +162,47 @@ players.loc[~awpers, "Sniping adjusted"] = 0
 
 
 # ============================================================
+# STRETCH S TIER
+# ============================================================
+#
+# Give every attribute at least S_TIER_TARGET values of 95+.
+# For an attribute short of that, the Nth-highest value is
+# moved up to 95 with two straight-line pieces:
+#
+#   Nth-highest .. 100   ->  95 .. 100
+#   80 .. Nth-highest    ->  80 .. 95
+#
+# Players keep their order, values below 80 don't move, and
+# the number of A-or-better grades stays the same.
+
+s_tier_counts = {}
+
+for attribute in ATTRIBUTES:
+
+    column = f"{attribute} adjusted"
+    values = players[column].clip(upper=ATTRIBUTE_CEILING)
+
+    nth = values.nlargest(S_TIER_TARGET).iloc[-1]
+
+    if nth < S_TIER_MIN:
+        top = values >= nth
+        middle = (values >= S_STRETCH_FLOOR) & ~top
+
+        values = values.copy()
+        values[top] = S_TIER_MIN + (
+            (values[top] - nth) * (ATTRIBUTE_CEILING - S_TIER_MIN)
+            / (ATTRIBUTE_CEILING - nth)
+        )
+        values[middle] = S_STRETCH_FLOOR + (
+            (values[middle] - S_STRETCH_FLOOR) * (S_TIER_MIN - S_STRETCH_FLOOR)
+            / (nth - S_STRETCH_FLOOR)
+        )
+
+    players[column] = values
+    s_tier_counts[attribute] = int((values.round(1) >= S_TIER_MIN).sum())
+
+
+# ============================================================
 # BUILD TEAMS
 # ============================================================
 
@@ -204,5 +255,6 @@ SITE_OUTPUT.write_text(
 print(f"Teams:   {len(teams)}")
 print(f"AWPers:  {awpers.sum()}")
 print(f"Sniping S tier: {', '.join(players.loc[s_tier, 'playername'])}")
+print("S grades: " + ", ".join(f"{a} {n}" for a, n in s_tier_counts.items()))
 print(f"Players: {sum(len(t['players']) for t in teams)}")
 print(f"Saved to {SITE_OUTPUT.relative_to(ROOT_DIR)}")

@@ -1234,12 +1234,12 @@
   }
 
   // Cutoffs from simulated games where each round takes the
-  // highest value on offer: median 85.5, top 5% above 91
+  // highest value on offer: median 87.3, top 5% above 93.3
   function buildGrade(overall) {
-    return overall >= 91 ? "S" :
-      overall >= 88.5 ? "A" :
-      overall >= 85.5 ? "B" :
-      overall >= 82 ? "C" : "D";
+    return overall >= 93 ? "S" :
+      overall >= 90.5 ? "A" :
+      overall >= 87 ? "B" :
+      overall >= 83 ? "C" : "D";
   }
 
   function renderResult() {
